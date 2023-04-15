@@ -42,12 +42,12 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 # 📝 Publications 
 
-[† denotes the corresponding author; * denotes equal contribution]
+[† denotes the corresponding author; ‡ denotes equal contribution]
 
 ## 2023
 
 - ***Single Positive Multi-Label Text Classification via Self-Boosted Training***,  
-Zifeng Cheng*, **Cong Wang***, Zhiwei Jiang†, Yafeng Yin, Shiping Ge, Yuliang Liu and Qing Gu,  
+Zifeng Cheng‡, **Cong Wang**‡, Zhiwei Jiang†, Yafeng Yin, Shiping Ge, Yuliang Liu and Qing Gu,  
 *Annual Meeting of the Association for Computational Linguistics* (**ACL**).
 
 - ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
