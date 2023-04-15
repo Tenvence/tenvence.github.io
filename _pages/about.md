@@ -78,7 +78,7 @@ Huizhen Hao, Zhiwei Jiang†, Shiping Ge, **Cong Wang**, Qing Gu,
 *Computers & Geosciences*,  
 [[paper](https://doi.org/10.1016/j.cageo.2021.105016)]
 
-**2021**
+## 2021
 
 - ***SiamFuseNet: A Pseudo-Siamese Network for Detritus Detection from Polarized Microscopic Images of River Sands***,  
 **Cong Wang**, Shiping Ge, Zhiwei Jiang, Huizhen Hao, Qing Gu†,  
