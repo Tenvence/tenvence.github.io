@@ -20,7 +20,7 @@ redirect_from:
 I am working for Ph.D. degree in Nanjing University with Prof. [Qing Gu](https://isetnju.github.io/guq/index.html) and Assistant Researcher [Zhiwei Jiang](https://cs.nju.edu.cn/jzw/).
 I received B.E. degree from Nanjing Institute of Technology in June 2019. In the same year, I was admitted to study for M.E. degree in Nanjing University.
 
-# 📖 Experiments
+# 📖 Experience
 
 - ***2021.9*** - ***Now***, Ph.D. Candidate  
 Department of Computer Science and Technology, Nanjing University, Nanjing.
