@@ -22,6 +22,8 @@ I received B.E. degree from Nanjing Institute of Technology in June 2019. In the
 
 # 📖 Experience
 
+- ***2023.5*** - ***Now***, Intern  
+AI Lab, Tencent, Shenzhen.
 - ***2021.9*** - ***Now***, Ph.D. Candidate  
 Department of Computer Science and Technology, Nanjing University, Nanjing.
 - ***2019.6*** - ***2021.6***, M.E.,  
@@ -40,9 +42,17 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 # 📝 Publications 
 
-[† denotes the corresponding author]
+[† denotes the corresponding author; * denotes equal contribution]
 
 ## 2023
+
+- ***Single Positive Multi-Label Text Classification via Self-Boosted Training***,
+Zifeng Cheng*, **Cong Wang***, Zhiwei Jiang†, Yafeng Yin, Shiping Ge, Yuliang Liu and Qing Gu,  
+*Annual Meeting of the Association for Computational Linguistics* (**ACL**).
+
+- ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
+**Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
+*Annual Meeting of the Association for Computational Linguistics* (**ACL**).
 
 - ***HSLA: Heuristic Signal Learning and Aggregation for Unsupervised Readability Assessment***,  
 Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Chen, Qing Gu,  
