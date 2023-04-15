@@ -44,9 +44,49 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 ## 2023
 
-- `SIGIR` [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- ***HSLA: Heuristic Signal Learning and Aggregation for Unsupervised Readability Assessment***,  
+Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Chen, Qing Gu,  
+*International ACM SIGIR Conference on Research and Development in Information Retrieval* (**SIGIR**).  
 
-- ``WWW`` [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- ***Learning Robust Multi-Modal Representation for Multi-Label Emotion Recognition via Adversarial Masking and Perturbation***,  
+Shiping Ge, Zhiwei Jiang†, Zifeng Cheng, **Cong Wang**, Yafeng Yin, Qing Gu,  
+*The ACM Web Conference* (**WWW**).  
 
-- 
+- ***Controlling Class Layout for Deep Ordinal Classification via Constrained Proxies Learning***  
+**Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
+*AAAI Conference on Artificial Intelligence* (**AAAI**).  
+[[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
+[[code](https://github.com/tenvence/cpl)]
+[[poster](../files/cpl-poster.pdf)]
+[[slide](../files/cpl-slide.pdf)]
+
+## 2022
+
+- ***A Consistent Dual-MRC Framework for Emotion-Cause Pair Extraction***,  
+Zifeng Cheng, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Shiping Ge, Qing Gu,  
+*ACM Transactions on Information Systems* (**TOIS**).  
+[[paper](https://doi.org/10.1145/3558548)]
+
+- ***Learning to Classify Open Intent via Soft Labeling and Manifold Mixup***,  
+Zifeng Cheng, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Qing Gu,  
+*IEEE/ACM Transactions on Audio, Speech and Language Processing* (**TASLP**).  
+[[paper](https://doi.org/10.1109/TASLP.2022.3145308)]
+[[arXiv](https://arxiv.org/abs/2204.07804)]
+
+- ***Siamese Adversarial Network for Image Classification of Heavy Mineral Grains***,  
+Huizhen Hao, Zhiwei Jiang†, Shiping Ge, **Cong Wang**, Qing Gu,  
+*Computers & Geosciences*,  
+[[paper](https://doi.org/10.1016/j.cageo.2021.105016)]
+
+**2021**
+
+- ***SiamFuseNet: A Pseudo-Siamese Network for Detritus Detection from Polarized Microscopic Images of River Sands***,  
+**Cong Wang**, Shiping Ge, Zhiwei Jiang, Huizhen Hao, Qing Gu†,  
+*Computers & Geosciences*.  
+[[paper](https://doi.org/10.1016/j.cageo.2021.104912)]
+[[code](https://github.com/tenvence/sfn)]
+
+- ***Dual-Input Attention Network for Automatic Identification of Detritus from River Sands***,  
+Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu†,  
+*Computers & Geosciences*.  
+[[paper](https://doi.org/10.1016/j.cageo.2021.104735)]
