@@ -15,7 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
 
-<span class='anchor' id='about-me'></span>
+<!-- <span class='anchor' id='about-me'></span> -->
 
 I am working for Ph.D. degree in Nanjing University with Prof. [Qing Gu](https://isetnju.github.io/guq/index.html) and Assistant Researcher [Zhiwei Jiang](https://cs.nju.edu.cn/jzw/).
 I received B.E. degree from Nanjing Institute of Technology in June 2019. In the same year, I was admitted to study for M.E. degree in Nanjing University.
