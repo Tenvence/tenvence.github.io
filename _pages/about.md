@@ -79,7 +79,7 @@ Zifeng Cheng, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Qing Gu,
 
 - ***Siamese Adversarial Network for Image Classification of Heavy Mineral Grains***,  
 Huizhen Hao, Zhiwei Jiang†, Shiping Ge, **Cong Wang**, Qing Gu,  
-*Computers & Geosciences*,  
+*Computers & Geosciences*.  
 [[paper](https://doi.org/10.1016/j.cageo.2021.105016)]
 
 ## 2021
