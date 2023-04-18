@@ -11,17 +11,17 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am working for Ph.D. degree in Nanjing University with Prof. [Qing Gu](https://isetnju.github.io/guq/index.html) and Assistant Researcher [Zhiwei Jiang](https://cs.nju.edu.cn/jzw/).
-I received B.E. degree from Nanjing Institute of Technology in June 2019. In the same year, I was admitted to study for M.E. degree in Nanjing University.
+I received B.Eng. degree from Nanjing Institute of Technology in June 2019. In the same year, I was admitted to study for M.Eng. degree in Nanjing University.
 
 # 📖 Experience
 
-<!-- - ***2023.5*** - ***Now***, Intern  
-AI Lab, Tencent, Shenzhen. -->
-- ***2021.9*** - ***Now***, Ph.D. Candidate  
+<!-- - ***2023.5*** - ***Now***, AI Intern (mentored by Jun Zhang),  
+Tencent AI Lab, Tencent, Shenzhen. -->
+- ***2021.9*** - ***Now***, Ph.D. Student,  
 Department of Computer Science and Technology, Nanjing University, Nanjing.
-- ***2019.6*** - ***2021.6***, M.E.,  
+- ***2019.6*** - ***2021.6***, M.Eng.,  
 Department of Computer Science and Technology, Nanjing University, Nanjing.  
-- ***2015.9*** - ***2019.6***, B.E.,  
+- ***2015.9*** - ***2019.6***, B.Eng.,  
 School of Information and Communication Engineering, Nanjing Institute of Technology, Nanjing.  
 
 # 💬 Correspondence
