@@ -15,8 +15,6 @@ I received B.Eng. degree from Nanjing Institute of Technology in June 2019. In t
 
 # 📖 Experience
 
-<!-- - ***2023.5*** - ***Now***, AI Intern (mentored by Jun Zhang),  
-Tencent AI Lab, Tencent, Shenzhen. -->
 - ***2021.9*** - ***Now***, Ph.D. Student,  
 Department of Computer Science and Technology, Nanjing University, Nanjing.
 - ***2019.6*** - ***2021.6***, M.Eng.,  
@@ -35,18 +33,9 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 # 📝 Publications 
 
-<!-- [† denotes the corresponding author; ‡ denotes equal contribution] -->
 [† denotes the corresponding author]
 
 ## 2023
-
-<!-- - ***Single Positive Multi-Label Text Classification via Self-Boosted Training***,  
-Zifeng Cheng‡, **Cong Wang**‡, Zhiwei Jiang†, Yafeng Yin, Shiping Ge, Yuliang Liu and Qing Gu,  
-*Annual Meeting of the Association for Computational Linguistics* (**ACL**).
-
-- ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
-**Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
-*Annual Meeting of the Association for Computational Linguistics* (**ACL**). -->
 
 - ***HSLA: Heuristic Signal Learning and Aggregation for Unsupervised Readability Assessment***,  
 Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Chen, Qing Gu,  
@@ -55,6 +44,7 @@ Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Ch
 - ***Learning Robust Multi-Modal Representation for Multi-Label Emotion Recognition via Adversarial Masking and Perturbation***,  
 Shiping Ge, Zhiwei Jiang†, Zifeng Cheng, **Cong Wang**, Yafeng Yin, Qing Gu,  
 *The ACM Web Conference* (**WWW**).  
+[[paper](https://doi.org/10.1145/3543507.3583258)]
 
 - ***Controlling Class Layout for Deep Ordinal Classification via Constrained Proxies Learning***,  
 **Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
