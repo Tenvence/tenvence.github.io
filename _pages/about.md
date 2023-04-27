@@ -65,7 +65,6 @@ Zifeng Cheng, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Shiping Ge, Qing Gu,
 Zifeng Cheng, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Qing Gu,  
 *IEEE/ACM Transactions on Audio, Speech and Language Processing* (**TASLP**).  
 [[paper](https://doi.org/10.1109/TASLP.2022.3145308)]
-[[arXiv](https://arxiv.org/abs/2204.07804)]
 
 - ***Siamese Adversarial Network for Image Classification of Heavy Mineral Grains***,  
 Huizhen Hao, Zhiwei Jiang†, Shiping Ge, **Cong Wang**, Qing Gu,  
