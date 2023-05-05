@@ -35,9 +35,26 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 # 📝 Publications 
 
+<!-- [† denotes the corresponding author, ‡ denotes equal contribution] -->
 [† denotes the corresponding author]
 
 ## 2023
+
+<!-- - ***Fine-Grained Alignment Network for Zero-Shot Cross-Modal Retrieval***,  
+Shiping Ge, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu,  
+*ACM International Conference on Multimedia* (**MM**).
+
+- ***Memory-Enhanced Multi-Modal Embedding Learning for Audio-Visual Event Localization***,  
+Shiping Ge, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu,  
+*ACM International Conference on Multimedia* (**MM**). -->
+
+- ***Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
+**Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
+*Annual Meeting of the Association for Computational Linguistics* (**ACL**).
+
+<!-- - ***Single Positive Multi-Label Text Classification via Self-Boosted Training***,  
+Zifeng Cheng‡, **Cong Wang**‡, Zhiwei Jiang†, Yafeng Yin, Shiping Ge, Yuliang Liu, Qing Gu,  
+*Annual Meeting of the Association for Computational Linguistics* (**ACL**). -->
 
 - ***HSLA: Heuristic Signal Learning and Aggregation for Unsupervised Readability Assessment***,  
 Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Chen, Qing Gu,  
