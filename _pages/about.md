@@ -48,13 +48,12 @@ Shiping Ge, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu,
 Shiping Ge, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu,  
 *ACM International Conference on Multimedia* (**MM**). -->
 
-- ***Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
+<!-- - ***Single Positive Multi-Label Text Classification via Self-Boosted Training***,  
+Zifeng Cheng‡, **Cong Wang**‡, Zhiwei Jiang†, Yafeng Yin, Shiping Ge, Yuliang Liu, Qing Gu, -->
+
+- ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
 **Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
 *Annual Meeting of the Association for Computational Linguistics* (**ACL**).
-
-<!-- - ***Single Positive Multi-Label Text Classification via Self-Boosted Training***,  
-Zifeng Cheng‡, **Cong Wang**‡, Zhiwei Jiang†, Yafeng Yin, Shiping Ge, Yuliang Liu, Qing Gu,  
-*Annual Meeting of the Association for Computational Linguistics* (**ACL**). -->
 
 - ***HSLA: Heuristic Signal Learning and Aggregation for Unsupervised Readability Assessment***,  
 Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Chen, Qing Gu,  
