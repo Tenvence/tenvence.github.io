@@ -101,3 +101,15 @@ Huizhen Hao, Zhiwei Jiang†, Shiping Ge, **Cong Wang**, Qing Gu,
 Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu†,  
 *Computers & Geosciences*.  
 [[paper](https://doi.org/10.1016/j.cageo.2021.104735)]
+
+# 🧑🏻‍🎓 Co-Authors
+
+[**Zhiwei Jiang**](https://cs.nju.edu.cn/jzw/) (9),
+[**Qing Gu**](https://isetnju.github.io/guq/index.html) (9),
+**Shiping Ge** (7),
+[**Yafeng Yin**](https://cs.nju.edu.cn/yafeng/index.htm) (6),
+[**Zifeng Cheng**](https://zifengcheng.github.io) (5),
+**Huizhen Hao** (3),
+**Yuliang Liu** (1),
+**Sheng Chen** (1),
+**Zhaoling Chen** (1).
