@@ -35,10 +35,6 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 # 📝 Publications 
 
-<!-- [† denotes the corresponding author, ‡ denotes equal contribution] -->
-<!-- [† denotes the corresponding author] -->
-> † denotes the corresponding author
-
 ## 2023
 
 <!-- - ***Fine-Grained Alignment Network for Zero-Shot Cross-Modal Retrieval***,  
@@ -102,3 +98,6 @@ Huizhen Hao, Zhiwei Jiang†, Shiping Ge, **Cong Wang**, Qing Gu,
 Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu†,  
 *Computers & Geosciences*.  
 [[paper](https://doi.org/10.1016/j.cageo.2021.104735)]
+
+> † denotes the corresponding author
+> <!-- [† denotes the corresponding author, ‡ denotes equal contribution] -->
