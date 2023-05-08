@@ -52,7 +52,7 @@ Zifeng Cheng‡, **Cong Wang**‡, Zhiwei Jiang†, Yafeng Yin, Shiping Ge, Yuli
 **Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
 *Annual Meeting of the Association for Computational Linguistics* (**ACL**).
 
-- ***HSLA: Heuristic Signal Learning and Aggregation for Unsupervised Readability Assessment***,  
+- ***Unsupervised Readability Assessment via Learning from Weak Readability Signals***,  
 Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Chen, Qing Gu,  
 *International ACM SIGIR Conference on Research and Development in Information Retrieval* (**SIGIR**).  
 
