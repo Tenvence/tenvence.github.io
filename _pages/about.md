@@ -15,8 +15,6 @@ I received B.Eng. degree from Nanjing Institute of Technology in June 2019. In t
 
 # 📖 Experience
 
-<!-- - ***2023.5*** - ***Now***, AI Intern,  
-AI Lab, Technology Engineering Group (TEG), Tencent, Shenzhen. -->
 - ***2021.9*** - ***Now***, Ph.D. Student,  
 Department of Computer Science and Technology, Nanjing University, Nanjing.
 - ***2019.6*** - ***2021.6***, M.Eng.,  
@@ -36,17 +34,6 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 # 📝 Publications 
 
 ## 2023
-
-<!-- - ***Fine-Grained Alignment Network for Zero-Shot Cross-Modal Retrieval***,  
-Shiping Ge, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu,  
-*ACM International Conference on Multimedia* (**MM**).
-
-- ***Memory-Enhanced Multi-Modal Embedding Learning for Audio-Visual Event Localization***,  
-Shiping Ge, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu,  
-*ACM International Conference on Multimedia* (**MM**). -->
-
-<!-- - ***Single Positive Multi-Label Text Classification via Self-Boosted Training***,  
-Zifeng Cheng‡, **Cong Wang**‡, Zhiwei Jiang†, Yafeng Yin, Shiping Ge, Yuliang Liu, Qing Gu, -->
 
 - ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
 **Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
