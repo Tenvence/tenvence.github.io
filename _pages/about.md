@@ -33,6 +33,8 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 # 📝 Publications 
 
+> † denotes the corresponding author.
+
 ## 2023
 
 - ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
@@ -86,10 +88,10 @@ Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu†,
 *Computers & Geosciences*.  
 [[paper](https://doi.org/10.1016/j.cageo.2021.104735)]
 
-> † denotes the corresponding author.
+
 <!-- ‡ denotes equal contribution] -->
 
-# 📁 Professional Services
+<!-- # 📁 Professional Services
 
 - **Reviewer**: MM (2023).
-- **Member**: AAAI.
+- **Member**: AAAI. -->
