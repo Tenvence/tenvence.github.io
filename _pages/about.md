@@ -17,7 +17,7 @@ I received B.Eng. degree from Nanjing Institute of Technology in June 2019. In t
 
 <!-- - ***2023.5*** - ***Now***, Research Intern (mentored by [Jun Zhang](https://junzhang.org)),  
 Tencent AI Lab, Technology Engineering Group (TEG), Tencent, Shenzhen. -->
-- ***2021.9*** - ***Now***, Ph.D. Student,  
+- ***2021.9*** - ***Now***, Ph.D. Candidate,  
 Department of Computer Science and Technology, Nanjing University, Nanjing.
 - ***2019.6*** - ***2021.6***, M.Eng.,  
 Department of Computer Science and Technology, Nanjing University, Nanjing.  
@@ -94,5 +94,5 @@ Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu†,
 
 # 📁 Academic Services
 
-<!-- - **Reviewer**: MM (2023). -->
+- **Reviewer**: MM (2023).
 - **Member**: AAAI.
