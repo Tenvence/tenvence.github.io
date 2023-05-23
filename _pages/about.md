@@ -15,8 +15,8 @@ I received B.Eng. degree from Nanjing Institute of Technology in June 2019. In t
 
 # 📖 Experience
 
-- ***2023.5*** - ***Now***, Research Intern (mentored by [Jun Zhang](https://junzhang.org)),  
-Tencent AI Lab, Technology Engineering Group (TEG), Tencent, Shenzhen.
+<!-- - ***2023.5*** - ***Now***, Research Intern (mentored by [Jun Zhang](https://junzhang.org)),  
+Tencent AI Lab, Technology Engineering Group (TEG), Tencent, Shenzhen. -->
 - ***2021.9*** - ***Now***, Ph.D. Candidate,  
 Department of Computer Science and Technology, Nanjing University, Nanjing.
 - ***2019.6*** - ***2021.6***, M.Eng.,  
