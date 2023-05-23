@@ -15,8 +15,8 @@ I received B.Eng. degree from Nanjing Institute of Technology in June 2019. In t
 
 # 📖 Experience
 
-<!-- - ***2023.5*** - ***Now***, Research Intern (mentored by [Jun Zhang](https://junzhang.org)),  
-Tencent AI Lab, Technology Engineering Group (TEG), Tencent, Shenzhen. -->
+- ***2023.5*** - ***Now***, Research Intern (mentored by [Jun Zhang](https://junzhang.org)),  
+Tencent AI Lab, Technology Engineering Group (TEG), Tencent, Shenzhen.
 - ***2021.9*** - ***Now***, Ph.D. Candidate,  
 Department of Computer Science and Technology, Nanjing University, Nanjing.
 - ***2019.6*** - ***2021.6***, M.Eng.,  
@@ -34,7 +34,8 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 - ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
 **Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
-*Annual Meeting of the Association for Computational Linguistics* (**ACL**).
+*Annual Meeting of the Association for Computational Linguistics* (**ACL**).  
+[[code](https://github.com/tenvence/ulra)]
 
 - ***Unsupervised Readability Assessment via Learning from Weak Readability Signals***,  
 Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Chen, Qing Gu,  
