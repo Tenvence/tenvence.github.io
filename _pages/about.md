@@ -38,6 +38,8 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 **Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
 *Annual Meeting of the Association for Computational Linguistics* (**ACL**).  
 [[code](https://github.com/tenvence/ulra)]
+[[poster](../files/ulra-poster.pdf)]
+[[slides](../files/ulra-slides.pdf)]
 
 - ***Unsupervised Readability Assessment via Learning from Weak Readability Signals***,  
 Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Chen, Qing Gu,  
@@ -54,7 +56,7 @@ Shiping Ge, Zhiwei Jiang†, Zifeng Cheng, **Cong Wang**, Yafeng Yin, Qing Gu,
 [[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
 [[code](https://github.com/tenvence/cpl)]
 [[poster](../files/cpl-poster.pdf)]
-[[slide](../files/cpl-slide.pdf)]
+[[slides](../files/cpl-slides.pdf)]
 
 ## 2022
 
