@@ -11,9 +11,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am working for Ph.D. degree in Nanjing University with Prof. [Qing Gu](https://isetnju.github.io/guq/index.html) and Assistant Researcher [Zhiwei Jiang](https://cs.nju.edu.cn/jzw/).
-I am also an intern at Tencent mentored by [Kuan Tian](https://scholar.google.com/citations?user=zZeo7hwAAAAJ) and [Jun Zhang](https://junzhang.org).  
+Currently, I am also an intern at Tencent mentored by [Kuan Tian](https://scholar.google.com/citations?user=zZeo7hwAAAAJ) and [Jun Zhang](https://junzhang.org).  
 
-I received B.Eng. degree from Nanjing Institute of Technology in June 2019. In the same year, I was admitted to study for M.Eng. degree in Nanjing University.
+My B.Eng. degree was received from Nanjing Institute of Technology in June 2019. In the same year, I was admitted to study for M.Eng. degree in Nanjing University.
 
 # 📖 Experience
 
