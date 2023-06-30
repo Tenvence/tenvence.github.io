@@ -53,7 +53,7 @@ Shiping Ge, Zhiwei Jiang†, Zifeng Cheng, **Cong Wang**, Yafeng Yin, Qing Gu,
 - ***Controlling Class Layout for Deep Ordinal Classification via Constrained Proxies Learning***,  
 **Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
 *AAAI Conference on Artificial Intelligence* (**AAAI**).  
-[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25345)]
+[[paper](https://doi.org/10.1609/aaai.v37i2.25345)]
 [[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
 [[code](https://github.com/tenvence/cpl)]
 [[poster](../files/cpl-poster.pdf)]
