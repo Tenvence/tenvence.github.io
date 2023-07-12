@@ -11,14 +11,14 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am working for Ph.D. degree in Nanjing University with Prof. [Qing Gu](https://isetnju.github.io/guq/index.html) and Assistant Researcher [Zhiwei Jiang](https://cs.nju.edu.cn/jzw/).
-Currently, I am also an intern at Tencent AI Lab (AIPD) mentored by [Kuan Tian](https://scholar.google.com/citations?user=zZeo7hwAAAAJ) and [Jun Zhang](https://junzhang.org).  
+Currently, I am also an intern at Tencent AI Lab mentored by [Kuan Tian](https://scholar.google.com/citations?user=zZeo7hwAAAAJ) and [Jun Zhang](https://junzhang.org).  
 
 My B.Eng. degree was received from Nanjing Institute of Technology in June 2019. In the same year, I was admitted to study for M.Eng. degree in Nanjing University.
 
 # 📖 Experience
 
 - ***2023.5*** - ***Now***, Research Intern,  
-Tencent AI Lab (AIPD), Technology & Engineering Group (TEG), Tencent, Shenzhen.
+Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen.
 - ***2021.9*** - ***Now***, Ph.D. Candidate,  
 Department of Computer Science and Technology, Nanjing University, Nanjing.
 - ***2019.6*** - ***2021.6***, M.Eng.,  
