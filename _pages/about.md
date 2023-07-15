@@ -37,6 +37,7 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 - ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
 **Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
 *Annual Meeting of the Association for Computational Linguistics* (**ACL**).  
+[[paper](https://aclanthology.org/2023.acl-long.782/)]
 [[code](https://github.com/tenvence/ulra)]
 [[poster](../files/ulra-poster.pdf)]
 [[slides](../files/ulra-slides.pdf)]
