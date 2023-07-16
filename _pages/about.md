@@ -30,7 +30,7 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 - Yingcai Scholarship, Nanjing University, 2021.  
 
-# 📝 Publications 
+# 📝 Publications
 
 ## 2023
 
@@ -67,7 +67,7 @@ Zifeng Cheng, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Shiping Ge, Qing Gu,
 *ACM Transactions on Information Systems* (**TOIS**).  
 [[paper](https://doi.org/10.1145/3558548)]
 
-- ***Learning to Classify Open Intent via Soft Labeling and Manifold Mixup***,  
+- ``TASLP`` ***Learning to Classify Open Intent via Soft Labeling and Manifold Mixup***,  
 Zifeng Cheng, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Qing Gu,  
 *IEEE/ACM Transactions on Audio, Speech and Language Processing* (**TASLP**).  
 [[paper](https://doi.org/10.1109/TASLP.2022.3145308)]
