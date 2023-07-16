@@ -34,7 +34,7 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 
 ## 2023
 
-- ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
+- ``ACL`` ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
 **Cong Wang**, Zhiwei Jiang†, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
 *Annual Meeting of the Association for Computational Linguistics* (**ACL**).  
 [[paper](https://aclanthology.org/2023.acl-long.782/)]
@@ -66,8 +66,6 @@ Shiping Ge, Zhiwei Jiang†, Zifeng Cheng, **Cong Wang**, Yafeng Yin, Qing Gu,
 Zifeng Cheng, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Shiping Ge, Qing Gu,  
 *ACM Transactions on Information Systems* (**TOIS**).  
 [[paper](https://doi.org/10.1145/3558548)]
-
-
 
 - <div class="badge">TASLP</div> ***Learning to Classify Open Intent via Soft Labeling and Manifold Mixup***,  
 Zifeng Cheng, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Qing Gu,  
