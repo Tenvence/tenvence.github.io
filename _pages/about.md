@@ -45,6 +45,7 @@ School of Information and Communication Engineering, Nanjing Institute of Techno
 - ***Unsupervised Readability Assessment via Learning from Weak Readability Signals***,  
 Yuliang Liu, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Sheng Chen, Zhaoling Chen, Qing Gu,  
 *International ACM SIGIR Conference on Research and Development in Information Retrieval* (**SIGIR**).  
+[[paper](https://dl.acm.org/doi/10.1145/3539618.3591695)]
 
 - ***Learning Robust Multi-Modal Representation for Multi-Label Emotion Recognition via Adversarial Masking and Perturbation***,  
 Shiping Ge, Zhiwei Jiang†, Zifeng Cheng, **Cong Wang**, Yafeng Yin, Qing Gu,  
@@ -100,5 +101,5 @@ Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu†,
 
 # 📁 Academic Services
 
-- **Reviewer**: MM (2023).
+- **Reviewer**: EMNLP (2023), MM (2023).
 - **Member**: AAAI.
