@@ -15,7 +15,7 @@ Currently, I am also an intern at Tencent AI Lab mentored by [Kuan Tian](https:/
 
 My B.Eng. degree was received from Nanjing Institute of Technology in June 2019. In the same year, I was admitted to study for M.Eng. degree in Nanjing University.
 
-# 📖 Experience
+# Experience
 
 - ***2023.5*** - ***Now***, Research Intern,  
 Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen.
@@ -26,11 +26,11 @@ Department of Computer Science and Technology, Nanjing University, Nanjing.
 - ***2015.9*** - ***2019.6***, B.Eng.,  
 School of Information and Communication Engineering, Nanjing Institute of Technology, Nanjing.  
 
-# 🎖 Honors and Awards
+# Honors and Awards
 
 - Yingcai Scholarship, Nanjing University, 2021.  
 
-# 📝 Publications
+# Publications
 
 ## 2023
 
@@ -94,12 +94,12 @@ Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu†,
 > † denotes the corresponding author.
 <!-- >  ‡ denotes equal contribution. -->
 
-# 💬 Correspondence
+# Correspondence
 
 - **Email:** cw@smail.nju.edu.cn.  
 - **Office:** Room 612, Computer Science Building, Nanjing University (Xianlin Campus).
 
-# 📁 Academic Services
+# Academic Services
 
 - **Reviewer**: EMNLP (2023), MM (2023).
 - **Member**: AAAI.
