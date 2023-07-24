@@ -14,7 +14,7 @@ redirect_from:
 
 {% include_relative includes/experience.md %}
 
-{% include_relative includes/honers.md %}
+{% include_relative includes/honer.md %}
 
 {% include_relative includes/pub.md %}
 
