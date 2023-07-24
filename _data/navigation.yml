@@ -12,8 +12,5 @@ main:
   - title: "Publications"
     url: "/#publications"
   
-  - title: "Correspondence"
-    url: "/#correspondence"
-
   - title: "Academic Services"
     url: "/#academic-services"
