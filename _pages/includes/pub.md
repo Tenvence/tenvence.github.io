@@ -3,7 +3,7 @@
 ## 2023
 
 - ***Learning Event-Specific Localization Preferences for Audio-Visual Event Localization***,  
-Shiping Ge, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Zifeng Cheng, and Qing Gu,  
+Shiping Ge, Zhiwei Jiang†, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu,  
 *ACM International Conference on Multimedia* (**MM**).
 
 - ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
