@@ -58,9 +58,10 @@ Huizhen Hao, Zhiwei Jiang†, Shiping Ge, **Cong Wang**, Qing Gu,
 [[paper](https://doi.org/10.1016/j.cageo.2021.104912)]
 [[code](https://github.com/tenvence/sfn)]
 
-- [*Dual-Input Attention Network for Automatic Identification of Detritus from River Sands*](https://doi.org/10.1016/j.cageo.2021.104735),  
+- ***Dual-Input Attention Network for Automatic Identification of Detritus from River Sands***,  
 Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu†,  
 *Computers & Geosciences*.  
+[[paper](https://doi.org/10.1016/j.cageo.2021.104735)]
 
 > † denotes the corresponding author.
 <!-- >  ‡ denotes equal contribution. -->
