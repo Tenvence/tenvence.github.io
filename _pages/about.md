@@ -16,6 +16,8 @@ redirect_from:
 
 {% include_relative includes/honor.md %}
 
-{% include_relative includes/pub.md %}
+<!-- {% include_relative includes/sel_pub.md %} -->
+
+{% include_relative includes/all_pub.md %}
 
 {% include_relative includes/aca_service.md %}

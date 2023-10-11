@@ -1,5 +1,12 @@
 # Publications
 
+## Preprints
+
+- ***Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models***,  
+Fei Shen*, Hu Ye*, Jun Zhang†, **Cong Wang**, Xiao Han, Wei Yang,  
+arXiv:2310.06313.  
+[[paper](https://doi.org/10.48550/arXiv.2310.06313)]
+
 ## 2023
 
 - ***Learning Event-Specific Localization Preferences for Audio-Visual Event Localization***,  
@@ -63,5 +70,4 @@ Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu†,
 *Computers & Geosciences*.  
 [[paper](https://doi.org/10.1016/j.cageo.2021.104735)]
 
-> † denotes the corresponding author.
-<!-- >  ‡ denotes equal contribution. -->
+> * denotes equal contribution. † denotes the corresponding author. 
