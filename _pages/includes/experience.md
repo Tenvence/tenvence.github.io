@@ -7,4 +7,4 @@ State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing.
 - ***2019.6*** - ***2021.6***, M.Eng.,  
 State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing.  
 - ***2015.9*** - ***2019.6***, B.Eng.,  
-School of Information and Communication Engineering, Nanjing Institute of Technology, Nanjing.  
+School of Information and Communication Engineering, Nanjing Institute of Technology, Nanjing.
