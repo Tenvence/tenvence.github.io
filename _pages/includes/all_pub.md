@@ -3,9 +3,8 @@
 ## Preprints
 
 - ***Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models***,  
-Fei Shen\*, Hu Ye\*, Jun Zhang<sup>†</sup>, **Cong Wang**, Xiao Han, Wei Yang,  
-arXiv:2310.06313.  
-[[paper](https://doi.org/10.48550/arXiv.2310.06313)]
+Fei Shen\*, Hu Ye\*, Jun Zhang<sup>†</sup>, **Cong Wang**, Xiao Han, Wei Yang.   
+[[arXiv:2310.06313](https://doi.org/10.48550/arXiv.2310.06313)]
 
 ## 2023
 
@@ -35,10 +34,10 @@ Shiping Ge, Zhiwei Jiang<sup>†</sup>, Zifeng Cheng, **Cong Wang**, Yafeng Yin,
 **Cong Wang**, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
 *AAAI Conference on Artificial Intelligence* (**AAAI**).  
 [[paper](https://doi.org/10.1609/aaai.v37i2.25345)]
-[[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
 [[code](https://github.com/tenvence/cpl)]
 [[poster](../files/cpl-poster.pdf)]
 [[slides](../files/cpl-slides.pdf)]
+[[arXiv:2303.00396](https://doi.org/10.48550/arXiv.2303.00396)]
 
 ## 2022
 
@@ -51,6 +50,7 @@ Zifeng Cheng, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, **Cong Wang**, Shiping Ge,
 Zifeng Cheng, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, **Cong Wang**, Qing Gu,  
 *IEEE/ACM Transactions on Audio, Speech and Language Processing* (**TASLP**).  
 [[paper](https://doi.org/10.1109/TASLP.2022.3145308)]
+[[arXiv:2204.07804](https://doi.org/10.48550/arXiv.2204.07804)]
 
 - ***Siamese Adversarial Network for Image Classification of Heavy Mineral Grains***,  
 Huizhen Hao, Zhiwei Jiang<sup>†</sup>, Shiping Ge, **Cong Wang**, Qing Gu,  
