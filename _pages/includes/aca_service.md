@@ -1,4 +1,4 @@
 # Academic Services
 
-- **Member**: AAAI.
+- **Member**: ACL, AAAI.
 - **Conference Reviewer / Program Committee**: EMNLP (2023), MM (2023).
