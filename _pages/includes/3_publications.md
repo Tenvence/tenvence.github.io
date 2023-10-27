@@ -10,7 +10,8 @@ Fei Shen\*, Hu Ye\*, Jun Zhang<sup>†</sup>, **Cong Wang**, Xiao Han, Wei Yang.
 
 - ***Learning Event-Specific Localization Preferences for Audio-Visual Event Localization***,  
 Shiping Ge, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu,  
-*ACM International Conference on Multimedia* (**MM**).
+*ACM International Conference on Multimedia* (**MM**).  
+[[paper](https://doi.org/10.1145/3581783.3612506)]
 
 - ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
 **Cong Wang**, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
