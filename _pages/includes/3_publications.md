@@ -4,13 +4,14 @@
 
 - ***Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models***,  
 Fei Shen\*, Hu Ye\*, Jun Zhang<sup>†</sup>, **Cong Wang**, Xiao Han, Wei Yang.   
-[[arXiv:2310.06313](https://doi.org/10.48550/arXiv.2310.06313)]
+[[arXiv](https://doi.org/10.48550/arXiv.2310.06313)]
 
 ## 2023
 
 - ***Learning Event-Specific Localization Preferences for Audio-Visual Event Localization***,  
 Shiping Ge, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu,  
-*ACM International Conference on Multimedia* (**MM**).
+*ACM International Conference on Multimedia* (**MM**).  
+[[paper](https://doi.org/10.1145/3581783.3612506)]
 
 - ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***,  
 **Cong Wang**, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, Zifeng Cheng, Shiping Ge, Qing Gu,  
@@ -37,7 +38,7 @@ Shiping Ge, Zhiwei Jiang<sup>†</sup>, Zifeng Cheng, **Cong Wang**, Yafeng Yin,
 [[code](https://github.com/tenvence/cpl)]
 [[poster](../files/cpl-poster.pdf)]
 [[slides](../files/cpl-slides.pdf)]
-[[arXiv:2303.00396](https://doi.org/10.48550/arXiv.2303.00396)]
+[[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
 
 ## 2022
 
@@ -50,7 +51,7 @@ Zifeng Cheng, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, **Cong Wang**, Shiping Ge,
 Zifeng Cheng, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, **Cong Wang**, Qing Gu,  
 *IEEE/ACM Transactions on Audio, Speech and Language Processing* (**TASLP**).  
 [[paper](https://doi.org/10.1109/TASLP.2022.3145308)]
-[[arXiv:2204.07804](https://doi.org/10.48550/arXiv.2204.07804)]
+[[arXiv](https://doi.org/10.48550/arXiv.2204.07804)]
 
 - ***Siamese Adversarial Network for Image Classification of Heavy Mineral Grains***,  
 Huizhen Hao, Zhiwei Jiang<sup>†</sup>, Shiping Ge, **Cong Wang**, Qing Gu,  
