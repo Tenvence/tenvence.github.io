@@ -18,6 +18,4 @@ redirect_from:
 
 {% include_relative includes/3_publications.md %}
 
-<!-- {% include_relative includes/4_blogs.md %} -->
-
 {% include_relative includes/5_academic_services.md %}
