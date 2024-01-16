@@ -1,9 +1,10 @@
 # Publications
 
-## Preprints
+## 2024
 
 - ***Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models***,  
 Fei Shen\*, Hu Ye\*, Jun Zhang<sup>†</sup>, **Cong Wang**, Xiao Han, Wei Yang.   
+*International Conference on Learning Representations* (**ICLR**).  
 [[arXiv](https://doi.org/10.48550/arXiv.2310.06313)]
 
 ## 2023
