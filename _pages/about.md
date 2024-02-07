@@ -19,3 +19,5 @@ redirect_from:
 {% include_relative includes/3_publications.md %}
 
 {% include_relative includes/4_academic_services.md %}
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=-zDSAavhko-7FqVgGMmXcQenQGeLW3e_A1KLcKsvnvM&cl=ffffff&w=a"></script>
