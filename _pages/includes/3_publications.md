@@ -1,4 +1,4 @@
-# Publications
+# Selected Publications
 
 ## 2024
 
@@ -54,7 +54,7 @@ Zifeng Cheng, Zhiwei Jiang<sup>†</sup>, Yafeng Yin, **Cong Wang**, Qing Gu,
 [[paper](https://doi.org/10.1109/TASLP.2022.3145308)]
 [[arXiv](https://doi.org/10.48550/arXiv.2204.07804)]
 
-- ***Siamese Adversarial Network for Image Classification of Heavy Mineral Grains***,  
+<!-- - ***Siamese Adversarial Network for Image Classification of Heavy Mineral Grains***,  
 Huizhen Hao, Zhiwei Jiang<sup>†</sup>, Shiping Ge, **Cong Wang**, Qing Gu,  
 *Computers & Geosciences*.  
 [[paper](https://doi.org/10.1016/j.cageo.2021.105016)]
@@ -70,6 +70,6 @@ Huizhen Hao, Zhiwei Jiang<sup>†</sup>, Shiping Ge, **Cong Wang**, Qing Gu,
 - ***Dual-Input Attention Network for Automatic Identification of Detritus from River Sands***,  
 Shiping Ge, **Cong Wang**, Zhiwei Jiang, Huizhen Hao, Qing Gu<sup>†</sup>,  
 *Computers & Geosciences*.  
-[[paper](https://doi.org/10.1016/j.cageo.2021.104735)]
+[[paper](https://doi.org/10.1016/j.cageo.2021.104735)] -->
 
 > \* denotes equal contribution. <sup>†</sup> denotes the corresponding author. 
