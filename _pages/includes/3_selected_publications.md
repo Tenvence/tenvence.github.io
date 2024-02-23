@@ -39,7 +39,8 @@ Shiping Ge, Zhiwei Jiang<sup>†</sup>, Zifeng Cheng, **Cong Wang**, Yafeng Yin,
 [[code](https://github.com/tenvence/cpl)]
 [[poster](../files/cpl-poster.pdf)]
 [[slides](../files/cpl-slides.pdf)]
-[[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
+[[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]  
+![GitHub Repo stars](https://img.shields.io/github/stars/tenvence/cpl)
 
 ## 2022
 
