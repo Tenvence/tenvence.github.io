@@ -1,4 +1,4 @@
-# Publications
+# All Publications
 
 ## 2024
 
