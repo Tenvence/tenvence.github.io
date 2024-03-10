@@ -1,8 +1,8 @@
 # Experience
 
-- ***2023.5*** - ***Now***, Research Intern,  
+- ***2023.5*** - ***Present***, Research Intern,  
 Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen, China.
-- ***2021.9*** - ***Now***, Ph.D. Candidate,  
+- ***2021.9*** - ***Present***, Ph.D. Candidate,  
 State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China.
 - ***2019.6*** - ***2021.6***, M.Eng.,  
 State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China.  
