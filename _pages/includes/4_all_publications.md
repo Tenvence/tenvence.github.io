@@ -16,7 +16,7 @@
 
 - [***A Consistent Dual-MRC Framework for Emotion-Cause Pair Extraction***](https://doi.org/10.1145/3558548), Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, S. Ge, Q. Gu, *ACM Transactions on Information Systems* (**TOIS**).
 - [***Learning to Classify Open Intent via Soft Labeling and Manifold Mixup***](https://doi.org/10.1109/TASLP.2022.3145308), Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, Q. Gu, *IEEE/ACM Transactions on Audio, Speech and Language Processing* (**TASLP**).
-- [***Siamese Adversarial Network for Image Classification of Heavy Mineral Grains***](https://doi.org/10.1016/j.cageo.2021.105016), H. Hao, Z. Jiang<sup>†</sup>, S. Ge, **C. Wang**, Q. Gu,*Computers & Geosciences*.
+- [***Siamese Adversarial Network for Image Classification of Heavy Mineral Grains***](https://doi.org/10.1016/j.cageo.2021.105016), H. Hao, Z. Jiang<sup>†</sup>, S. Ge, **C. Wang**, Q. Gu, *Computers & Geosciences*.
 
 ## 2021
 
