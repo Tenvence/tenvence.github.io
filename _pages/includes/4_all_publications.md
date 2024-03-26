@@ -2,7 +2,7 @@
 
 ## 2024
 
-- [***Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models***](https://doi.org/10.48550/arXiv.2310.06313), F. Shen\*, H. Ye\*, J. Zhang<sup>†</sup>, **C. Wang**, X. Han, W. Yang. *International Conference on Learning Representations* (**ICLR**).
+- [***Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models***](https://doi.org/10.48550/arXiv.2310.06313), F. Shen\*, H. Ye\*, J. Zhang<sup>†</sup>, **C. Wang**, X. Han, W. Yang, *International Conference on Learning Representations* (**ICLR**).
 
 ## 2023
 
