@@ -22,4 +22,4 @@ redirect_from:
 
 {% include_relative includes/5_academic_services.md %}
 
-<a href="https://clustrmaps.com/site/1byg4"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=-zDSAavhko-7FqVgGMmXcQenQGeLW3e_A1KLcKsvnvM&cl=ffffff" /></a>
+<center><a href="https://clustrmaps.com/site/1byg4"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=-zDSAavhko-7FqVgGMmXcQenQGeLW3e_A1KLcKsvnvM&cl=ffffff" /></a></center>
