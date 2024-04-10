@@ -22,4 +22,6 @@ redirect_from:
 
 {% include_relative includes/5_academic_services.md %}
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=-zDSAavhko-7FqVgGMmXcQenQGeLW3e_A1KLcKsvnvM' width=50%></script>
+<div width="50%" align="center">
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=-zDSAavhko-7FqVgGMmXcQenQGeLW3e_A1KLcKsvnvM'></script>
+</div>
