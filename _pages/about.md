@@ -25,5 +25,5 @@ redirect_from:
 ---
 
 <br/>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=-zDSAavhko-7FqVgGMmXcQenQGeLW3e_A1KLcKsvnvM'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=-zDSAavhko-7FqVgGMmXcQenQGeLW3e_A1KLcKsvnvM&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 <br/>
