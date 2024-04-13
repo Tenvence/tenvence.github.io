@@ -16,6 +16,7 @@
 [[code](https://github.com/tenvence/ulra)]
 [[poster](../files/ulra-poster.pdf)]
 [[slides](../files/ulra-slides.pdf)]
+[[video](https://aclanthology.org/2023.acl-long.782.mp4)]
 </div>
 </div>
 
@@ -38,6 +39,3 @@
 [[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
 </div>
 </div>
-
-<!-- > \* denotes equal contribution. <sup>†</sup> denotes the corresponding author.  -->
-<!-- > <sup>†</sup> denotes the corresponding author. -->
