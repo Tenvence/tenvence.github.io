@@ -6,5 +6,5 @@ Currently, my focus is on **the controlled and consistent generation within AIGC
 In addition, I am also deeply invested in exploring **model architecture within AIGC**, particularly the techniques involved in *ensembling* and *merging*.
 My prior research experience spans various fields, including essay scoring, ordinal classification, and object detection, to name a few.
 
-My B.Eng. degree was received from Nanjing Institute of Technology in June 2019. 
+My B.Eng. degree was received from Nanjing Institute of Technology in June 2019.
 In the same year, I was admitted to study for M.Eng. degree in Nanjing University.
