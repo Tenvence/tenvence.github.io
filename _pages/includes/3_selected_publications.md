@@ -22,7 +22,7 @@
 <div class='paper-box-image'>
 <div>
 <div class="badge">AAAI 2023</div>
-<img src='images/paper-images/acl-aaai-23.png' alt="sym" width="100%">
+<img src='images/paper-images/cpl-aaai-23.png' alt="sym" width="100%">
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
