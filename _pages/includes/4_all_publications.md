@@ -23,4 +23,8 @@
 - [***SiamFuseNet: A Pseudo-Siamese Network for Detritus Detection from Polarized Microscopic Images of River Sands***](https://doi.org/10.1016/j.cageo.2021.104912), **C. Wang**, S. Ge, Z. Jiang, H. Hao, Q. Gu<sup>†</sup>, *Computers & Geosciences*.
 - [***Dual-Input Attention Network for Automatic Identification of Detritus from River Sands***](https://doi.org/10.1016/j.cageo.2021.104735), S. Ge, **C. Wang**, Z. Jiang, H. Hao, Q. Gu<sup>†</sup>, *Computers & Geosciences*.
 
+## Preprints
+
+- [***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***](), **C. Wang**\*, **K. Tian**\*, J. Zhang<sup>†</sup>, Y. Guan, F. Luo, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, X. Han, W. Yang.
+
 > \* denotes equal contribution. <sup>†</sup> denotes the corresponding author. 

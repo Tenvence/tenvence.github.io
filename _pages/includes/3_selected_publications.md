@@ -4,6 +4,31 @@
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
+<div class="badge">Preprint</div>
+<img src='images/paper-images/v-express.png' alt="sym" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***,  
+**Cong Wang**\*, **Kuan Tian**\*, Jun Zhang<sup>†</sup>, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang<sup>†</sup>, Qing Gu, Xiao Han, Wei Yang.  
+<!-- *Annual Meeting of the Association for Computational Linguistics* (**ACL**), 2023.   -->
+<!-- [[paper](https://aclanthology.org/2023.acl-long.782/)] -->
+[[code](https://github.com/tencent-ailab/V-Express/)]
+[[project page](https://tenvence.github.io/p/v-express/)]
+[[models](https://huggingface.co/tk93/V-Express/)]
+<!-- [[poster](../files/ulra-poster.pdf)] -->
+<!-- [[slides](../files/ulra-slides.pdf)] -->
+<!-- [[video](https://aclanthology.org/2023.acl-long.782.mp4)] -->
+
+</div>
+</div>
+<!-- END | ULRA, ACL 2023 -->
+
+<!-- START | ULRA, ACL 2023 -->
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
 <div class="badge">ACL 2023</div>
 <img src='images/paper-images/ulra-acl-23.png' alt="sym" width="100%">
 </div>
