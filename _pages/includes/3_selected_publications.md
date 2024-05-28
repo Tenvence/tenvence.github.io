@@ -15,7 +15,7 @@
 [[code](https://github.com/tencent-ailab/V-Express/)]
 [[project page](https://tenvence.github.io/p/v-express/)]
 [[models](https://huggingface.co/tk93/V-Express/)]  
-
+<br><br>
 V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images. 
 ![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express) 
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express)
@@ -35,7 +35,7 @@ V-Express aims to generate a talking head video under the control of a reference
 <div class='paper-box-text' markdown="1">
 
 ***Ensembling Diffusion Models via Adaptive Feature Aggregation***,  
-**Cong Wang**\*, **Kuan Tian**\*, Yonghang Guan, Jun Zhang<sup>†</sup>, Zhiwei Jiang<sup>†</sup>, Fei Shen, Xiao Han, Qing Gu, Wei Yang,  
+**Cong Wang**\*, Kuan Tian\*, Yonghang Guan, Jun Zhang<sup>†</sup>, Zhiwei Jiang<sup>†</sup>, Fei Shen, Xiao Han, Qing Gu, Wei Yang,  
 *arXiv:2405.17082*.  
 [[code](https://github.com/tenvence/afa/)]
 [[arXiv](https://arxiv.org/abs/2405.17082)]
