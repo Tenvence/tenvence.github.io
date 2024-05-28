@@ -15,7 +15,9 @@
 [[code](https://github.com/tencent-ailab/V-Express/)]
 [[project page](https://tenvence.github.io/p/v-express/)]
 [[models](https://huggingface.co/tk93/V-Express/)]  
-![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express)
+
+V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images. 
+![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express) 
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express)
 
 </div>
