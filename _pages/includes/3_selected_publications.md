@@ -1,29 +1,46 @@
 # Selected Publications
 
-<!-- START | ULRA, ACL 2023 -->
+<!-- START | V-Express -->
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
-<div class="badge">Preprint</div>
+<div class="badge">arXiv</div>
 <img src='images/paper-images/v-express.png' alt="sym" width="100%">
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
 ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***,  
-**Cong Wang**\*, **Kuan Tian**\*, Jun Zhang<sup>†</sup>, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang<sup>†</sup>, Qing Gu, Xiao Han, Wei Yang.  
-<!-- *Annual Meeting of the Association for Computational Linguistics* (**ACL**), 2023.   -->
-<!-- [[paper](https://aclanthology.org/2023.acl-long.782/)] -->
+**Cong Wang**\*, Kuan Tian\*, Jun Zhang<sup>†</sup>, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang<sup>†</sup>, Qing Gu, Xiao Han, Wei Yang.  
 [[code](https://github.com/tencent-ailab/V-Express/)]
 [[project page](https://tenvence.github.io/p/v-express/)]
-[[models](https://huggingface.co/tk93/V-Express/)]
-<!-- [[poster](../files/ulra-poster.pdf)] -->
-<!-- [[slides](../files/ulra-slides.pdf)] -->
-<!-- [[video](https://aclanthology.org/2023.acl-long.782.mp4)] -->
+[[models](https://huggingface.co/tk93/V-Express/)]  
+![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express)
+![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express)
 
 </div>
 </div>
-<!-- END | ULRA, ACL 2023 -->
+<!-- END | V-Express -->
+
+<!-- START | AFA -->
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">arXiv</div>
+<img src='images/paper-images/afa.png' alt="sym" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+***Ensembling Diffusion Models via Adaptive Feature Aggregation***,  
+**Cong Wang**\*, **Kuan Tian**\*, Yonghang Guan, Jun Zhang<sup>†</sup>, Zhiwei Jiang<sup>†</sup>, Fei Shen, Xiao Han, Qing Gu, Wei Yang,  
+*arXiv:2405.17082*.  
+[[code](https://github.com/tenvence/afa/)]
+[[arXiv](https://arxiv.org/abs/2405.17082)]
+
+</div>
+</div>
+<!-- END | AFA -->
 
 <!-- START | ULRA, ACL 2023 -->
 <div class='paper-box'>
