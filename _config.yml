@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Cong Wang (王聪)"
   avatar           : "images/profile.png"
-  bio              : "Ph.D. Candidate, Nanjing University"
-  location         : "Shenzhen, China"
+  bio              : "Ph.D. Student, Nanjing University"
+  location         : "Nanjing, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=h7EIOCUAAAAJ"

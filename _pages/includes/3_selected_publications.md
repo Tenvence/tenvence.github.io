@@ -11,13 +11,15 @@
 <div class='paper-box-text' markdown="1">
 
 ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***,  
-**Cong Wang**\*, Kuan Tian\*, Jun Zhang<sup>†</sup>, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang<sup>†</sup>, Qing Gu, Xiao Han, Wei Yang.  
+**Cong Wang**\*, Kuan Tian\*, Jun Zhang<sup>†</sup>, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang<sup>†</sup>, Qing Gu, Xiao Han, Wei Yang,  
+*arXiv:2406.02511*.  
 [[code](https://github.com/tencent-ailab/V-Express/)]
 [[project page](https://tenvence.github.io/p/v-express/)]
-[[models](https://huggingface.co/tk93/V-Express/)]  
+[[arXiv](https://arxiv.org/abs/2406.02511)]
+[[models](https://huggingface.co/tk93/V-Express/)]
 <br><br>
 V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.
-![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express) 
+![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express)
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express)
 
 </div>

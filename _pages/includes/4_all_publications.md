@@ -25,7 +25,7 @@
 
 ## Preprints
 
-- [***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***](), **C. Wang**\*, K. Tian\*, J. Zhang<sup>†</sup>, Y. Guan, F. Luo, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, X. Han, W. Yang.
+- [***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***](https://arxiv.org/abs/2406.02511), **C. Wang**\*, K. Tian\*, J. Zhang<sup>†</sup>, Y. Guan, F. Luo, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, X. Han, W. Yang.
 - [***Ensembling Diffusion Models via Adaptive Feature Aggregation***](https://arxiv.org/abs/2405.17082), **C. Wang**\*, K. Tian\*, Y. Guan, J. Zhang<sup>†</sup>, Z. Jiang<sup>†</sup>, F. Shen, X. Han, Q. Gu, W. Yang, arXiv:2405.17082.
 
 > \* denotes equal contribution. <sup>†</sup> denotes the corresponding author.
