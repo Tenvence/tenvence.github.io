@@ -22,10 +22,10 @@ Feng Luo,
 Xiao Han,
 Wei Yang,  
 *arXiv:2406.02511*.  
-**[[code](https://github.com/tencent-ailab/V-Express/)]**
-**[[project page](https://tenvence.github.io/p/v-express/)]**
-**[[arXiv](https://arxiv.org/abs/2406.02511)]**
-**[[models](https://huggingface.co/tk93/V-Express/)]**
+[[code](https://github.com/tencent-ailab/V-Express/)]
+[[project page](https://tenvence.github.io/p/v-express/)]
+[[arXiv](https://arxiv.org/abs/2406.02511)]
+[[models](https://huggingface.co/tk93/V-Express/)]
 <br><br>
 V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.
 ![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express)
@@ -56,8 +56,8 @@ Xiao Han,
 [Qing Gu](https://isetnju.github.io/guq/index.html),
 Wei Yang,  
 *arXiv:2405.17082*.  
-**[[code](https://github.com/tenvence/afa/)]**
-**[[arXiv](https://arxiv.org/abs/2405.17082)]**
+[[code](https://github.com/tenvence/afa/)]
+[[arXiv](https://arxiv.org/abs/2405.17082)]
 
 </div>
 </div>
@@ -81,11 +81,11 @@ Wei Yang,
 Shiping Ge,
 [Qing Gu](https://isetnju.github.io/guq/index.html),  
 *Annual Meeting of the Association for Computational Linguistics* (**ACL**), 2023.  
-**[[paper](https://aclanthology.org/2023.acl-long.782/)]**
-**[[code](https://github.com/tenvence/ulra)]**
-**[[poster](../files/ulra-poster.pdf)]**
-**[[slides](../files/ulra-slides.pdf)]**
-**[[video](https://aclanthology.org/2023.acl-long.782.mp4)]**
+[[paper](https://aclanthology.org/2023.acl-long.782/)]
+[[code](https://github.com/tenvence/ulra)]
+[[poster](../files/ulra-poster.pdf)]
+[[slides](../files/ulra-slides.pdf)]
+[[video](https://aclanthology.org/2023.acl-long.782.mp4)]
 
 </div>
 </div>
@@ -109,11 +109,11 @@ Shiping Ge,
 Shiping Ge,
 [Qing Gu](https://isetnju.github.io/guq/index.html),  
 *AAAI Conference on Artificial Intelligence* (**AAAI**), 2023.  
-**[[paper](https://doi.org/10.1609/aaai.v37i2.25345)]**
-**[[code](https://github.com/tenvence/cpl)]**
-**[[poster](../files/cpl-poster.pdf)]**
-**[[slides](../files/cpl-slides.pdf)]**
-**[[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]**
+[[paper](https://doi.org/10.1609/aaai.v37i2.25345)]
+[[code](https://github.com/tenvence/cpl)]
+[[poster](../files/cpl-poster.pdf)]
+[[slides](../files/cpl-slides.pdf)]
+[[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
 
 </div>
 </div>
