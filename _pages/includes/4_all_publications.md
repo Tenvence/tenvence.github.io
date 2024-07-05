@@ -26,6 +26,7 @@
 
 ## Preprints
 
+- [***Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models***](https://arxiv.org/abs/2407.02482); F. Shen, H. Ye, S. Liu, J. Zhang<sup>†</sup>, **C. Wang**, X. Han, W. Yang; *arXiv:2407.02482*.
 - [***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***](https://arxiv.org/abs/2406.02511); **C. Wang**\*, K. Tian\*, J. Zhang<sup>†</sup>, Y. Guan, F. Luo, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, X. Han, W. Yang; *arXiv:2406.02511*.
 - [***Ensembling Diffusion Models via Adaptive Feature Aggregation***](https://arxiv.org/abs/2405.17082); **C. Wang**\*, K. Tian\*, Y. Guan, J. Zhang<sup>†</sup>, Z. Jiang<sup>†</sup>, F. Shen, X. Han, Q. Gu, W. Yang; *arXiv:2405.17082*.
 
