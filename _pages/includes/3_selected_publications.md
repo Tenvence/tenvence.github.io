@@ -27,7 +27,8 @@ Wei Yang;
 [[arXiv](https://arxiv.org/abs/2406.02511)]
 [[models](https://huggingface.co/tk93/V-Express/)]
 <br><br>
-V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.
+**TL;DR:** V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.  
+
 ![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express)
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express)
 
@@ -58,6 +59,8 @@ Wei Yang;
 *arXiv:2405.17082*.  
 [[code](https://github.com/tenvence/afa/)]
 [[arXiv](https://arxiv.org/abs/2405.17082)]
+<br><br>
+**TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
 
 </div>
 </div>
@@ -86,6 +89,8 @@ Shiping Ge,
 [[poster](../files/ulra-poster.pdf)]
 [[slides](../files/ulra-slides.pdf)]
 [[video](https://aclanthology.org/2023.acl-long.782.mp4)]
+<br><br>
+**TL;DR:** We propose ULRA for unsupervised automated essay scoring, which utilizes multiple heuristic quality signals to train a neural network using Deep Pairwise Rank Aggregation loss.
 
 </div>
 </div>
@@ -114,6 +119,8 @@ Shiping Ge,
 [[poster](../files/cpl-poster.pdf)]
 [[slides](../files/cpl-slides.pdf)]
 [[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
+<br><br>
+**TL;DR:** We propose Constrained Proxies Learning for deep ordinal classification, which learns proxies for ordinal classes and adjusts their layout in feature space to capture ordinal relationships.
 
 </div>
 </div>
