@@ -26,6 +26,7 @@
 
 ## Preprints
 
+- [**A Debiased Nearest Neighbors Framework for Multi-Label Text Classification**](); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, Z. Chen, **C. Wang**, S. Ge, Q. Huang, Q. Gu; *arXiv:2408.03202*.
 - [**IMAGDressing-v1: Customizable Virtual Dressing**](https://arxiv.org/abs/2407.12705); F. Shen, X. Jiang, X. He, H. Ye, **C. Wang**, X. Du, Z. Li, J. Tang<sup>†</sup>; *arXiv:2407.12705*.
 - [***Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models***](https://arxiv.org/abs/2407.02482); F. Shen, H. Ye, S. Liu, J. Zhang<sup>†</sup>, **C. Wang**, X. Han, W. Yang; *arXiv:2407.02482*.
 - [***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***](https://arxiv.org/abs/2406.02511); **C. Wang**\*, K. Tian\*, J. Zhang<sup>†</sup>, Y. Guan, F. Luo, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, X. Han, W. Yang; *arXiv:2406.02511*.
