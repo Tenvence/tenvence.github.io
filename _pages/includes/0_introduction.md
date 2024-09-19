@@ -1,4 +1,5 @@
 I am working for Ph.D. degree in Nanjing University with Professor [Qing Gu (顾庆)](https://isetnju.github.io/guq/index.html) and Assistant Professor [Zhiwei Jiang (蒋智威)](https://zhiweinju.github.io).
+I am currently also a visiting Ph.D. student at Singapore Management University (SMU), supervised by Associate Professor [Qianru Sun](https://qianrusun.com) and Assistant Professor [Jiannan Li](https://jchrisli.github.io), with sponsorship from the China Scholarship Council (CSC).
 
 I possess a wide-ranging interest in computer vision and deep learning.
 Currently, my focus is on **controllable and consistent generation in AIGC**, such as *audio-driven video generation*, *text-to-image generation*, and so on.

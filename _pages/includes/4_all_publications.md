@@ -2,7 +2,7 @@
 
 ## 2024
 
-- **Multi-Prompting Decoder Helps Better Language Understanding**; Z. Cheng\*, Z. Chen\*, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, S. Ge, Y. Liu, Q. Gu; *Conference on Empirical Methods in Natural Language Processing* (**EMNLP, Findings**).
+- ***Multi-Prompting Decoder Helps Better Language Understanding***; Z. Cheng\*, Z. Chen\*, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, S. Ge, Y. Liu, Q. Gu; *Conference on Empirical Methods in Natural Language Processing* (**EMNLP, Findings**).
 - [***CoProLITE: Constrained Proxy Learning for Liver and Hepatic Lesion Segmentation***](https://doi.org/10.1016/j.neucom.2024.128014); Y. Fu, S. Liu, **C. Wang**, Z. Jiang, J, Du, Q. Gu; *Neurocomputing*.
 - [***Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models***](https://doi.org/10.48550/arXiv.2310.06313); F. Shen\*, H. Ye\*, J. Zhang<sup>†</sup>, **C. Wang**, X. Han, W. Yang; *International Conference on Learning Representations* (**ICLR**).
 
