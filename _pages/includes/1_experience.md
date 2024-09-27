@@ -6,7 +6,3 @@ School of Computing and Information Systems, Singapore Management University, Si
 Department of Computer Science and Technology, Nanjing University, Nanjing, China.
 - ***2023.05*** -- ***2024.05***, Research Intern,  
 Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen, China.
-<!-- - ***2019.09*** -- ***2021.08***, M.Eng.,  
-Department of Computer Science and Technology, Nanjing University, Nanjing, China.  
-- ***2015.09*** -- ***2019.06***, B.Eng.,  
-School of Information and Communication Engineering, Nanjing Institute of Technology, Nanjing, China. -->
