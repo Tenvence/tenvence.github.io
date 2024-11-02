@@ -8,6 +8,13 @@ Department of Computer Science and Technology, Nanjing University, Nanjing, Chin
 Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen, China.
 
 <div class='experience-box'>
+
+<div class='experience-box-image'>
+<div>
+<img src='images/paper-images/afa.png' alt="sym" width="100%">
+</div>
+</div>
+
 <div class='experience-box-text' markdown="1">
 
 ***Ensembling Diffusion Models via Adaptive Feature Aggregation***;  
@@ -27,9 +34,5 @@ Wei Yang;
 **TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
 
 </div>
-<div class='experience-box-image'>
-<div>
-<img src='images/paper-images/afa.png' alt="sym" width="100%">
-</div>
-</div>
+
 </div>
