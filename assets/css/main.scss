@@ -104,7 +104,7 @@
         order: 1;
 
         img {
-            max-width: 400px;
+            max-width: 200px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
         }
@@ -116,22 +116,19 @@
     }
 
     @include breakpoint($medium) {
-        .experience-box-image {
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 2;
-        }
-
         .experience-box-text {
             justify-content: left;
             padding-left: 2em;
-            max-width: 60%;
+            max-width: 80%;
             order: 1;
         }
-
+        .experience-box-image {
+            justify-content: left;
+            min-width: 200px;
+            max-width: 20%;
+            order: 2;
+        }
     }
-
 }
 
 $scroll_offset : 2em;
