@@ -15,7 +15,22 @@ Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen, China.
         </div>
     </div>
     <div class='paper-box-text' markdown="1">
-        - ***2024.10*** -- ***Present***, Visiting Ph.D. Student,  
-        School of Computing and Information Systems, Singapore Management University, Singapore.
+
+        ***Ensembling Diffusion Models via Adaptive Feature Aggregation***;  
+        [**Cong Wang**](https://tenvence.github.io/)\*,
+        [Kuan Tian](https://tiankuan93.github.io/)\*,
+        Yonghang Guan,
+        [Jun Zhang](https://junzhang.org/)<sup>†</sup>,
+        [Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
+        [Fei Shen](https://muzishen.github.io/),
+        Xiao Han,
+        [Qing Gu](https://isetnju.github.io/guq/index.html),
+        Wei Yang;  
+        *arXiv:2405.17082*.  
+        [[code](https://github.com/tenvence/afa/)]
+        [[arXiv](https://arxiv.org/abs/2405.17082)]
+        <br><br>
+        **TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
+
     </div>
 </div>
