@@ -7,17 +7,8 @@ Department of Computer Science and Technology, Nanjing University, Nanjing, Chin
 - ***2023.05*** -- ***2024.05***, Research Intern,  
 Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen, China.
 
-<div class='experience-box'>
-
-<div class='experience-box-image'>
-<div><img src='images/paper-images/afa.png' alt="sym" width="100%"></div>
-</div>
-
-<div class='experience-box-text' markdown="1">
-
-- ***2024.10*** -- ***Present***, Visiting Ph.D. Student,  
-School of Computing and Information Systems, Singapore Management University, Singapore.
-
-</div>
-
+<div class="image-container">
+    <img src="images/experience-images/smu.jpg" alt="SMU">
+    <img src="images/experience-images/nju.jpg" alt="NJU">
+    <img src="images/experience-images/tencent-ailab.png" alt="Tencent AI Lab">
 </div>

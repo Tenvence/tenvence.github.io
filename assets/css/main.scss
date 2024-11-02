@@ -87,49 +87,27 @@
 
 }
 
-.experience-box {
+.image-container {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    /* 均匀分配间隔 */
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-
-
-    .experience-box-image {
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 1;
-
-        img {
-            max-width: 200px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-
-    .experience-box-text {
-        max-width: 100%;
-        order: 2;
-    }
-
-    @include breakpoint($medium) {
-        .experience-box-text {
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 80%;
-            order: 1;
-        }
-        .experience-box-image {
-            justify-content: left;
-            min-width: 200px;
-            max-width: 20%;
-            order: 2;
-        }
-    }
+    /* 垂直居中对齐 */
+    height: 200px;
+    /* 设定图像容器高度 */
+    padding: 10px;
+    /* 内边距 */
 }
+
+.image-container img {
+    height: 100%;
+    /* 图像高度占满容器 */
+    max-width: 100%;
+    /* 限制图像宽度 */
+    object-fit: cover;
+    /* 保持图像比例，裁剪超出部分 */
+}
+
 
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
