@@ -7,6 +7,9 @@ Department of Computer Science and Technology, Nanjing University, Nanjing, Chin
 - ***2023.05*** -- ***2024.05***, Research Intern,  
 Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen, China.
 
+<span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
+<span class='show_paper_citations' data='h7EIOCUAAAAJ:3fE2CSJIrl8C'></span>
+
 <div class='paper-box'>
     <div class='paper-box-image'>
         <div>
