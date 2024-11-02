@@ -26,6 +26,7 @@ Wei Yang;
 [[project page](https://tenvence.github.io/p/v-express/)]
 [[arXiv](https://arxiv.org/abs/2406.02511)]
 [[models](https://huggingface.co/tk93/V-Express/)]
+<strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:3fE2CSJIrl8C'></span></strong>
 <br><br>
 **TL;DR:** V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.  
 
@@ -61,6 +62,7 @@ Wei Yang;
 *arXiv:2405.17082*.  
 [[code](https://github.com/tenvence/afa/)]
 [[arXiv](https://arxiv.org/abs/2405.17082)]
+<strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:3fE2CSJIrl8C'></span></strong>
 <br><br>
 **TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
 
