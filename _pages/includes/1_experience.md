@@ -7,8 +7,8 @@ Department of Computer Science and Technology, Nanjing University, Nanjing, Chin
 - ***2023.05*** -- ***2024.05***, Research Intern,  
 Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen, China.
 
-<div class='paper-box'>
-<div class='paper-box-text' markdown="1">
+<div class='experience-box'>
+<div class='experience-box-text' markdown="1">
 
 ***Ensembling Diffusion Models via Adaptive Feature Aggregation***;  
 [**Cong Wang**](https://tenvence.github.io/)\*,
@@ -27,7 +27,7 @@ Wei Yang;
 **TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
 
 </div>
-<div class='paper-box-image'>
+<div class='experience-box-image'>
 <div>
 <img src='images/paper-images/afa.png' alt="sym" width="100%">
 </div>
