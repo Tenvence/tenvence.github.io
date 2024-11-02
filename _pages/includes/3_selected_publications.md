@@ -32,6 +32,8 @@ Wei Yang;
 ![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express)
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express)
 
+<a href="https://trendshift.io/repositories/10473" target="_blank"><img src="https://trendshift.io/api/badge/repositories/10473" alt="tencent-ailab%2FV-Express | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
 </div>
 </div>
 <!-- END | V-Express -->
