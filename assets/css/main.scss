@@ -89,23 +89,16 @@
 
 .image-container {
     display: flex;
-    justify-content: space-between;
-    /* 均匀分配间隔 */
-    align-items: center;
-    /* 垂直居中对齐 */
-    height: 200px;
-    /* 设定图像容器高度 */
-    padding: 10px;
-    /* 内边距 */
-}
+    justify-content: space-between; // 均匀分配间隔
+    align-items: center; // 垂直居中对齐
+    height: 200px; // 设定图像容器高度
+    padding: 10px; // 内边距
 
-.image-container img {
-    height: 100%;
-    /* 图像高度占满容器 */
-    max-width: 100%;
-    /* 限制图像宽度 */
-    object-fit: cover;
-    /* 保持图像比例，裁剪超出部分 */
+    img {
+        height: 100%; // 图像高度占满容器
+        max-width: 100%; // 限制图像宽度
+        object-fit: cover; // 保持图像比例，裁剪超出部分
+    }
 }
 
 
