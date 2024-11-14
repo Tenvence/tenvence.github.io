@@ -2,15 +2,15 @@
 
 ## Preprints
 
-- [**A Debiased Nearest Neighbors Framework for Multi-Label Text Classification**](); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, Z. Chen, **C. Wang**, S. Ge, Q. Huang, Q. Gu; *arXiv:2408.03202*.
-- [**IMAGDressing-v1: Customizable Virtual Dressing**](https://arxiv.org/abs/2407.12705); F. Shen, X. Jiang, X. He, H. Ye, **C. Wang**, X. Du, Z. Li, J. Tang<sup>†</sup>; *arXiv:2407.12705*.
+- [***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***](https://arxiv.org/abs/2408.03202); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, Z. Chen, **C. Wang**, S. Ge, Q. Huang, Q. Gu; *arXiv:2408.03202*.
+- [***IMAGDressing-v1: Customizable Virtual Dressing***](https://arxiv.org/abs/2407.12705); F. Shen, X. Jiang, X. He, H. Ye, **C. Wang**, X. Du, Z. Li, J. Tang<sup>†</sup>; *arXiv:2407.12705*.
 - [***Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models***](https://arxiv.org/abs/2407.02482); F. Shen, H. Ye, S. Liu, J. Zhang<sup>†</sup>, **C. Wang**, X. Han, W. Yang; *arXiv:2407.02482*.
 - [***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***](https://arxiv.org/abs/2406.02511); **C. Wang**\*, K. Tian\*, J. Zhang<sup>†</sup>, Y. Guan, F. Luo, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, X. Han, W. Yang; *arXiv:2406.02511*.
 - [***Ensembling Diffusion Models via Adaptive Feature Aggregation***](https://arxiv.org/abs/2405.17082); **C. Wang**\*, K. Tian\*, Y. Guan, J. Zhang<sup>†</sup>, Z. Jiang<sup>†</sup>, F. Shen, X. Han, Q. Gu, W. Yang; *arXiv:2405.17082*.
 
 ## 2024
 
-- ***AP-Adapter: Improving Generalization of Automatic Prompts on Unseen Text-to-Image Diffusion Models***; Y. Fu, Z. Jiang<sup>†</sup>, Y. Liu, **C. Wang**, Z. Deng, Z. Chen, Q. Gu; *Annual Conference on Neural Information Processing Systems* (**NeurIPS**).
+- [***AP-Adapter: Improving Generalization of Automatic Prompts on Unseen Text-to-Image Diffusion Models***](https://openreview.net/pdf?id=46V9axmOuU); Y. Fu, Z. Jiang<sup>†</sup>, Y. Liu, **C. Wang**, Z. Deng, Z. Chen, Q. Gu; *Annual Conference on Neural Information Processing Systems* (**NeurIPS**).
 - [***Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models***](https://doi.org/10.48550/arXiv.2310.06313); F. Shen\*, H. Ye\*, J. Zhang<sup>†</sup>, **C. Wang**, X. Han, W. Yang; *International Conference on Learning Representations* (**ICLR**).
 
 ## 2023
