@@ -13,7 +13,7 @@ School of Computing and Information Systems (SCIS), Singapore Management Univers
 <div class="experience">
 <div class="text-section" markdown="1">
 
-- ***2021.09*** -- ***Present***, Ph.D. Student,  
+- ***2021.09*** -- ***Present***, Ph.D. Candidate,  
 School of Computer Science, Nanjing University (NJU), Nanjing, China.
 
 </div>
