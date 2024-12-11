@@ -26,7 +26,7 @@ Wei Yang;
 [[project page](https://tenvence.github.io/p/v-express/)]
 [[arXiv](https://arxiv.org/abs/2406.02511)]
 [[models](https://huggingface.co/tk93/V-Express/)]
-<strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:3fE2CSJIrl8C'></span></strong>
+<!-- <strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:3fE2CSJIrl8C'></span></strong> -->
 <br><br>
 **TL;DR:** V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.  
 
@@ -62,7 +62,7 @@ Wei Yang;
 *arXiv:2405.17082*.  
 [[code](https://github.com/tenvence/afa/)]
 [[arXiv](https://arxiv.org/abs/2405.17082)]
-<strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:MXK_kJrjxJIC'></span></strong>
+<!-- <strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:MXK_kJrjxJIC'></span></strong> -->
 <br><br>
 **TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
 
@@ -93,7 +93,7 @@ Shiping Ge,
 [[poster](../files/ulra-poster.pdf)]
 [[slides](../files/ulra-slides.pdf)]
 [[video](https://aclanthology.org/2023.acl-long.782.mp4)]
-<strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:WF5omc3nYNoC'></span></strong>
+<!-- <strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:WF5omc3nYNoC'></span></strong> -->
 <br><br>
 **TL;DR:** We propose ULRA for unsupervised automated essay scoring, which utilizes multiple heuristic quality signals to train a neural network using Deep Pairwise Rank Aggregation loss.
 
@@ -124,7 +124,7 @@ Shiping Ge,
 [[poster](../files/cpl-poster.pdf)]
 [[slides](../files/cpl-slides.pdf)]
 [[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
-<strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:hqOjcs7Dif8C'></span></strong>
+<!-- <strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:hqOjcs7Dif8C'></span></strong> -->
 <br><br>
 **TL;DR:** We propose Constrained Proxies Learning for deep ordinal classification, which learns proxies for ordinal classes and adjusts their layout in feature space to capture ordinal relationships.
 
