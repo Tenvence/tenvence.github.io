@@ -12,8 +12,8 @@
 
 ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***;  
 [**Cong Wang**](https://tenvence.github.io/)\*,
-[Kuan Tian](https://tiankuan93.github.io/)\*,
-[Jun Zhang](https://junzhang.org/)<sup>†</sup>,
+Kuan Tian\*,
+Jun Zhang<sup>†</sup>,
 Yonghang Guan,
 Feng Luo,
 [Fei Shen](https://muzishen.github.io/),
@@ -51,12 +51,12 @@ Wei Yang;
 
 ***Ensembling Diffusion Models via Adaptive Feature Aggregation***;  
 [**Cong Wang**](https://tenvence.github.io/)\*,
-[Kuan Tian](https://tiankuan93.github.io/)\*,
+Kuan Tian\*,
 Yonghang Guan,
 [Fei Shen](https://muzishen.github.io/),
 [Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
 [Qing Gu](https://isetnju.github.io/guq/index.html),
-[Jun Zhang](https://junzhang.org/)<sup>†</sup>;  
+Jun Zhang<sup>†</sup>;  
 *International Conference on Learning Representations* (**ICLR**), 2025.   
 [[code](https://github.com/tenvence/afa/)]
 [[arXiv](https://arxiv.org/abs/2405.17082)]
