@@ -57,7 +57,8 @@ Yonghang Guan,
 [Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
 [Qing Gu](https://isetnju.github.io/guq/index.html),
 Jun Zhang<sup>†</sup>;  
-*International Conference on Learning Representations* (**ICLR**), 2025.   
+*International Conference on Learning Representations* (**ICLR**), 2025.  
+[[paper](https://openreview.net/pdf?id=e32cI4r8Eo)]
 [[code](https://github.com/tenvence/afa/)]
 [[arXiv](https://arxiv.org/abs/2405.17082)]
 <!-- <strong><span class='show_paper_citations' data='h7EIOCUAAAAJ:MXK_kJrjxJIC'></span></strong> -->
