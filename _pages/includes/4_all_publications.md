@@ -28,7 +28,7 @@
 
 ## 2022
 
-- [J2] [***A Consistent Dual-MRC Framework for Emotion-Cause Pair Extraction***](https://doi.org/10.1145/3558548); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, S. Ge, Q. Gu; **TOIS**.
-- <span style="font-family: 'Courier New', Courier, monospace; color: #333;">[J1]</span> [***Learning to Classify Open Intent via Soft Labeling and Manifold Mixup***](https://doi.org/10.1109/TASLP.2022.3145308); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, Q. Gu; **TASLP**.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #333;"><b>[J2]</b></span> [***A Consistent Dual-MRC Framework for Emotion-Cause Pair Extraction***](https://doi.org/10.1145/3558548); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, S. Ge, Q. Gu; **TOIS**.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #333;"><b>[J1]</b></span> [***Learning to Classify Open Intent via Soft Labeling and Manifold Mixup***](https://doi.org/10.1109/TASLP.2022.3145308); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, Q. Gu; **TASLP**.
 
 > \* denotes equal contribution. <sup>†</sup> denotes the corresponding author.
