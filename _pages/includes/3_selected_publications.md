@@ -59,6 +59,7 @@ Jun Zhang<sup>†</sup>;
 *International Conference on Learning Representations* (**ICLR**), 2025.  
 [[paper](https://openreview.net/pdf?id=e32cI4r8Eo)]
 [[code](https://github.com/tenvence/afa/)]
+[[poster](../files/afa-poster.pdf)]
 [[arXiv](https://arxiv.org/abs/2405.17082)]
 <br><br>
 **TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
