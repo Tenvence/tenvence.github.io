@@ -13,7 +13,7 @@ School of Computing and Information Systems (SCIS), Singapore Management Univers
 <div class="experience">
 <div class="text-section" markdown="1">
 
-- ***2021.09*** -- ***Present***, Ph.D. Candidate,  
+- ***2021.09*** -- ***Present***, Ph.D. Student,  
 School of Computer Science, Nanjing University (NJU), Nanjing, China.
 
 </div>
@@ -28,4 +28,14 @@ Tencent AI Lab, Technology & Engineering Group (TEG), Tencent, Shenzhen, China.
 
 </div>
 <div class="image-section"><img src="images/experience-images/tencent-ailab.png" alt="Tencent AI Lab"></div>
+</div>
+
+<div class="experience">
+<div class="text-section" markdown="1">
+
+- ***2019.09*** -- ***2021.09***, M.S. Student,  
+School of Computer Science, Nanjing University (NJU), Nanjing, China.
+
+</div>
+<div class="image-section"><img src="images/experience-images/nju.png" alt="NJU"></div>
 </div>
