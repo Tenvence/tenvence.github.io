@@ -2,13 +2,13 @@
 
 ## Preprints
 
-- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P04]</b></span> [***IMAGGarment-1: Fine-Grained Garment Generation for Controllable Fashion Design***](https://arxiv.org/pdf/2504.13176); F. Shen, J. Yu, **C. Wang**, X. Jiang, X. Du, J. Tang.
-- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P03]</b></span> [***Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model***](https://arxiv.org/pdf/2502.09533); F. Shen, **C. Wang**, J. Gao, Q. Guo, J. Dang, J. Tang<sup>†</sup>, T.-S. Chua.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P03]</b></span> [***IMAGGarment-1: Fine-Grained Garment Generation for Controllable Fashion Design***](https://arxiv.org/pdf/2504.13176); F. Shen, J. Yu, **C. Wang**, X. Jiang, X. Du, J. Tang.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P02]</b></span> [***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***](https://arxiv.org/abs/2408.03202); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, Z. Chen, **C. Wang**, S. Ge, Q. Huang, Q. Gu.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P01]</b></span> [***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***](https://arxiv.org/abs/2406.02511); **C. Wang**\*, K. Tian\*, J. Zhang<sup>†</sup>, Y. Guan, F. Luo, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, X. Han, W. Yang.
 
 ## 2025
 
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C11]</b></span> [***Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model***](https://arxiv.org/pdf/2502.09533); F. Shen, **C. Wang**, J. Gao, Q. Guo, J. Dang, J. Tang<sup>†</sup>, T.-S. Chua; **ICML**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[J03]</b></span> [***Fine-Grained Alignment Network for Zero-Shot Cross-Modal Retrieval***](https://dl.acm.org/doi/pdf/10.1145/3722223); **S. Ge**, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, Z. Cheng, Q. Gu; **TOMM**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C10]</b></span> [***Ensembling Diffusion Models via Adaptive Feature Aggregation***](https://arxiv.org/abs/2405.17082); **C. Wang**\*, K. Tian\*, Y. Guan, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, J. Zhang<sup>†</sup>; **ICLR**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C09]</b></span> [***IMAGDressing-v1: Customizable Virtual Dressing***](https://arxiv.org/abs/2407.12705); F. Shen, X. Jiang, X. He, H. Ye, **C. Wang**, X. Du, Z. Li, J. Tang<sup>†</sup>; **AAAI**.
