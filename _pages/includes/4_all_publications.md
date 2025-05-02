@@ -8,7 +8,7 @@
 
 ## 2025
 
-- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C11]</b></span> [***Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model***](https://arxiv.org/pdf/2502.09533); F. Shen, **C. Wang**, J. Gao, Q. Guo, J. Dang, J. Tang<sup>†</sup>, T.-S. Chua; **ICML**.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C11]</b></span> [***Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model***](https://openreview.net/pdf?id=aINERD9MzJ); F. Shen, **C. Wang**, J. Gao, Q. Guo, J. Dang, J. Tang<sup>†</sup>, T.-S. Chua; **ICML**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[J03]</b></span> [***Fine-Grained Alignment Network for Zero-Shot Cross-Modal Retrieval***](https://dl.acm.org/doi/pdf/10.1145/3722223); **S. Ge**, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, Z. Cheng, Q. Gu; **TOMM**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C10]</b></span> [***Ensembling Diffusion Models via Adaptive Feature Aggregation***](https://arxiv.org/abs/2405.17082); **C. Wang**\*, K. Tian\*, Y. Guan, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, J. Zhang<sup>†</sup>; **ICLR**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C09]</b></span> [***IMAGDressing-v1: Customizable Virtual Dressing***](https://arxiv.org/abs/2407.12705); F. Shen, X. Jiang, X. He, H. Ye, **C. Wang**, X. Du, Z. Li, J. Tang<sup>†</sup>; **AAAI**.
