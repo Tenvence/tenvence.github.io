@@ -3,4 +3,4 @@ Additionally, I am currently a visiting Ph.D. student at Singapore Management Un
 
 I have a broad interest in computer vision and deep learning, with a current focus on controllable and consistent generation in AIGC, including *audio-driven video generation* and *text-to-image generation*.
 
-From May 2023 to May 2024, I was a research intern at Tencent AI Lab, where I worked under the mentorship of [Kuan Tian (田宽)](https://tiankuan93.github.io/) and [Jun Zhang (张军)](https://junzhang.org/), concentrating on research in AIGC.
+From May 2023 to May 2024, I was a research intern at Tencent AI Lab, where I worked under the mentorship of Kuan Tian (田宽) and Jun Zhang (张军), concentrating on research in AIGC.
