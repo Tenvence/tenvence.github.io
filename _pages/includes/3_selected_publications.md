@@ -42,6 +42,34 @@ Wei Yang;
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
+<div class="badge">arXiv</div>
+<img src='images/paper-images/afa.png' alt="sym" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***;  
+[**Cong Wang**](https://tenvence.github.io/)\*,
+Kuan Tian\*,
+Yonghang Guan,
+[Fei Shen](https://muzishen.github.io/),
+[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
+[Qing Gu](https://isetnju.github.io/guq/index.html),
+Jun Zhang<sup>†</sup>;  
+*International Conference on Learning Representations* (**ICLR**), 2025.  
+[[code](https://github.com/tenvence/afa/)]
+[[arXiv](https://arxiv.org/abs/2405.17082)]
+<br><br>
+**TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
+
+</div>
+</div>
+<!-- END | AFA -->
+
+<!-- START | AFA -->
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
 <div class="badge">ICLR 2025</div>
 <img src='images/paper-images/afa.png' alt="sym" width="100%">
 </div>

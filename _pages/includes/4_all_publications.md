@@ -2,6 +2,7 @@
 
 ## Preprints
 
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P04]</b></span> [***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***](https://arxiv.org/pdf/2506.15980); **C. Wang**\*, Z. Deng\*, Z. Jiang<sup>†</sup>, F. Shen, Y. Yin, S. Gan, Z. Cheng, S. Ge, Q. Gu.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P03]</b></span> [***IMAGGarment-1: Fine-Grained Garment Generation for Controllable Fashion Design***](https://arxiv.org/pdf/2504.13176); F. Shen, J. Yu, **C. Wang**, X. Jiang, X. Du, J. Tang.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P02]</b></span> [***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***](https://arxiv.org/abs/2408.03202); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, Z. Chen, **C. Wang**, S. Ge, Q. Huang, Q. Gu.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P01]</b></span> [***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***](https://arxiv.org/abs/2406.02511); **C. Wang**\*, K. Tian\*, J. Zhang<sup>†</sup>, Y. Guan, F. Luo, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, X. Han, W. Yang.
