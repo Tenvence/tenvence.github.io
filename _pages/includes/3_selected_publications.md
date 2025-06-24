@@ -38,33 +38,38 @@ Wei Yang;
 </div>
 <!-- END | V-Express -->
 
-<!-- START | AFA -->
+<!-- START | SignViP -->
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
 <div class="badge">arXiv</div>
-<img src='images/paper-images/afa.png' alt="sym" width="100%">
+<img src='images/paper-images/signvip.png' alt="sym" width="100%">
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
 ***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***;  
 [**Cong Wang**](https://tenvence.github.io/)\*,
-Kuan Tian\*,
-Yonghang Guan,
-[Fei Shen](https://muzishen.github.io/),
+Zexuan Deng\*,
 [Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
-[Qing Gu](https://isetnju.github.io/guq/index.html),
-Jun Zhang<sup>†</sup>;  
-*International Conference on Learning Representations* (**ICLR**), 2025.  
-[[code](https://github.com/tenvence/afa/)]
-[[arXiv](https://arxiv.org/abs/2405.17082)]
+[Fei Shen](https://muzishen.github.io/),
+[Yafeng Yin](https://yafengnju.github.io),
+Shiwei Gan,
+[Zifeng Cheng](https://zifengcheng.github.io),
+[Shiping Ge](https://shipingge.github.io),
+[Qing Gu](https://isetnju.github.io/guq/index.html);  
+*arXiv:2506.15980*.  
+[[code](https://github.com/umnooob/signvip/)]
+[[arXiv](https://arxiv.org/abs/2506.15980)]
 <br><br>
-**TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
+**TL;DR:** 
+We propose SignViP, a novel SLVG framework that incorporates
+multiple fine-grained conditions for improved generation fidelity, which adopts a
+discrete tokenization paradigm to integrate and represent the conditions.
 
 </div>
 </div>
-<!-- END | AFA -->
+<!-- END | SignViP -->
 
 <!-- START | AFA -->
 <div class='paper-box'>
@@ -88,7 +93,7 @@ Jun Zhang<sup>†</sup>;
 [[paper](https://openreview.net/pdf?id=e32cI4r8Eo)]
 [[code](https://github.com/tenvence/afa/)]
 [[poster](../files/afa-poster.pdf)]
-[[arXiv](https://arxiv.org/abs/2405.17082)]
+[[arXiv](https://arxiv.org/abs/2506.15980)]
 <br><br>
 **TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
 
