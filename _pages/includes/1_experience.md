@@ -29,3 +29,13 @@ Tencent AI Lab, Technology & Engineering Group, Tencent, Shenzhen, China.
 </div>
 <div class="image-section"><img src="images/experience-images/tencent-ailab.png" alt="Tencent AI Lab"></div>
 </div>
+
+<div class="experience">
+<div class="text-section" markdown="1">
+
+- ***2019.09*** -- ***2021.06***, Master's Student,  
+Department of Computer Science and Technology, Nanjing University, Nanjing, China.
+
+</div>
+<div class="image-section"><img src="images/experience-images/nju.png" alt="NJU"></div>
+</div>
