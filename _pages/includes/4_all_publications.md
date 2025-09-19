@@ -2,14 +2,14 @@
 
 ## Preprints
 
-- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P05]</b></span> [***Steering When Necessary: Flexible Steering Large Language Models with Backtracking***](https://arxiv.org/pdf/2508.17621); J. Gan\*, Z. Cheng\*, Z. Jiang, **C. Wang**, Y. Yin, X. Luo, Y. Fu, Q. Gu.
-- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P04]</b></span> [***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***](https://arxiv.org/pdf/2506.15980); **C. Wang**\*, Z. Deng\*, Z. Jiang<sup>†</sup>, F. Shen, Y. Yin, S. Gan, Z. Cheng, S. Ge, Q. Gu.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P03]</b></span> [***IMAGGarment-1: Fine-Grained Garment Generation for Controllable Fashion Design***](https://arxiv.org/pdf/2504.13176); F. Shen, J. Yu, **C. Wang**, X. Jiang, X. Du, J. Tang.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P02]</b></span> [***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***](https://arxiv.org/abs/2408.03202); Z. Cheng, Z. Jiang<sup>†</sup>, Y. Yin, Z. Chen, **C. Wang**, S. Ge, Q. Huang, Q. Gu.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P01]</b></span> [***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***](https://arxiv.org/abs/2406.02511); **C. Wang**\*, K. Tian\*, J. Zhang<sup>†</sup>, Y. Guan, F. Luo, F. Shen, Z. Jiang<sup>†</sup>, Q. Gu, X. Han, W. Yang.
 
 ## 2025
 
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C15]</b></span> [***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***](https://arxiv.org/pdf/2506.15980); **C. Wang**\*, Z. Deng\*, Z. Jiang<sup>†</sup>, F. Shen, Y. Yin, S. Gan, Z. Cheng, S. Ge, Q. Gu; **NeurIPS**.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C14]</b></span> [***Steering When Necessary: Flexible Steering Large Language Models with Backtracking***](https://arxiv.org/pdf/2508.17621); J. Gan\*, Z. Cheng\*, Z. Jiang, **C. Wang**, Y. Yin, X. Luo, Y. Fu, Q. Gu; **NeurIPS**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C13]</b></span> [***Contrastive Prompting Enhances Sentence Embeddings in LLMs through Inference-Time Steering***](https://arxiv.org/abs/2505.12831); Z. Cheng\*, Z. Wang\*, Y. Fu\*, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, Q. Gu; **ACL**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C12]</b></span> [***Multi-Prompting Decoder Helps Better Language Understanding***](https://arxiv.org/abs/2406.06279); Z. Cheng\*, Z. Chen\*, Z. Jiang<sup>†</sup>, Y. Yin, **C. Wang**, S. Ge, Q. Gu; **ACL Findings**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C11]</b></span> [***Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model***](https://openreview.net/pdf?id=aINERD9MzJ); F. Shen, **C. Wang**, J. Gao, Q. Guo, J. Dang, J. Tang<sup>†</sup>, T.-S. Chua; **ICML**.

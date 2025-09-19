@@ -29,8 +29,9 @@ Wei Yang;
 <br><br>
 **TL;DR:** V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.  
 
-![GitHub forks](https://img.shields.io/github/stars/tencent-ailab/V-Express)
-![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express)
+![GitHub Repo stars](https://img.shields.io/github/stars/tencent-ailab/V-Express?style=for-the-badge&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express?style=for-the-badge&logo=github)
+
 
 <a href="https://trendshift.io/repositories/10473" target="_blank"><img src="https://trendshift.io/api/badge/repositories/10473" alt="tencent-ailab%2FV-Express | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
@@ -42,7 +43,7 @@ Wei Yang;
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
-<div class="badge">arXiv</div>
+<div class="badge">NeurIPS 2025</div>
 <img src='images/paper-images/signvip.png' alt="sym" width="100%">
 </div>
 </div>
@@ -58,7 +59,10 @@ Shiwei Gan,
 [Zifeng Cheng](https://zifengcheng.github.io),
 [Shiping Ge](https://shipingge.github.io),
 [Qing Gu](https://isetnju.github.io/guq/index.html);  
-*arXiv:2506.15980*.  
+*Annual Conference on Neural Information Processing Systems* (**NeurIPS**), 2025.  
+
+![Static Badge](https://img.shields.io/badge/Spotlight_Paper-Top_(77%2B688)%2F5290%3D14.5%25_Paper-gray?style=for-the-badge&labelColor=red)
+
 [[code](https://github.com/umnooob/signvip/)]
 [[arXiv](https://arxiv.org/abs/2506.15980)]
 <br><br>
