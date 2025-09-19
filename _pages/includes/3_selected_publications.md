@@ -68,7 +68,7 @@ We propose SignViP, a novel SLVG framework that incorporates
 multiple fine-grained conditions for improved generation fidelity, which adopts a
 discrete tokenization paradigm to integrate and represent the conditions.
 
-![Static Badge](https://img.shields.io/badge/Spotlight_Paper-Top_(77%2B688)%2F5290%3D14.5%25_Paper-gray?style=for-the-badge&labelColor=red)
+![Static Badge](https://img.shields.io/badge/Spotlight_Paper-Top_(77%2B688)%2F21575%3D3.55%25_submissions-gray?style=for-the-badge&labelColor=red)
 
 </div>
 </div>
