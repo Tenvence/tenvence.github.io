@@ -60,9 +60,6 @@ Shiwei Gan,
 [Shiping Ge](https://shipingge.github.io),
 [Qing Gu](https://isetnju.github.io/guq/index.html);  
 *Annual Conference on Neural Information Processing Systems* (**NeurIPS**), 2025.  
-
-![Static Badge](https://img.shields.io/badge/Spotlight_Paper-Top_(77%2B688)%2F5290%3D14.5%25_Paper-gray?style=for-the-badge&labelColor=red)
-
 [[code](https://github.com/umnooob/signvip/)]
 [[arXiv](https://arxiv.org/abs/2506.15980)]
 <br><br>
@@ -70,6 +67,8 @@ Shiwei Gan,
 We propose SignViP, a novel SLVG framework that incorporates
 multiple fine-grained conditions for improved generation fidelity, which adopts a
 discrete tokenization paradigm to integrate and represent the conditions.
+
+![Static Badge](https://img.shields.io/badge/Spotlight_Paper-Top_(77%2B688)%2F5290%3D14.5%25_Paper-gray?style=for-the-badge&labelColor=red)
 
 </div>
 </div>
