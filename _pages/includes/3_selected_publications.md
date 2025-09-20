@@ -29,6 +29,8 @@ Wei Yang;
 <br><br>
 **TL;DR:** V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.  
 
+<br>
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/tencent-ailab/V-Express?style=for-the-badge&logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express?style=for-the-badge&logo=github)
 
