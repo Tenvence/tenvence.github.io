@@ -26,10 +26,8 @@ Wei Yang;
 [[project page](https://tenvence.github.io/p/v-express/)]
 [[arXiv](https://arxiv.org/abs/2406.02511)]
 [[models](https://huggingface.co/tk93/V-Express/)]
-<br><br>
-**TL;DR:** V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.  
 
-<br>
+**TL;DR:** V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/tencent-ailab/V-Express?style=for-the-badge&logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express?style=for-the-badge&logo=github)
@@ -64,7 +62,7 @@ Shiwei Gan,
 *Annual Conference on Neural Information Processing Systems* (**NeurIPS**), 2025.  
 [[code](https://github.com/umnooob/signvip/)]
 [[arXiv](https://arxiv.org/abs/2506.15980)]
-<br><br>
+
 **TL;DR:** 
 We propose SignViP, a novel SLVG framework that incorporates
 multiple fine-grained conditions for improved generation fidelity, which adopts a
@@ -99,7 +97,7 @@ Jun Zhang<sup>†</sup>;
 [[code](https://github.com/tenvence/afa/)]
 [[poster](../files/afa-poster.pdf)]
 [[arXiv](https://arxiv.org/abs/2506.15980)]
-<br><br>
+
 **TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
 
 </div>
@@ -129,7 +127,7 @@ Jun Zhang<sup>†</sup>;
 [[poster](../files/ulra-poster.pdf)]
 [[slides](../files/ulra-slides.pdf)]
 [[video](https://aclanthology.org/2023.acl-long.782.mp4)]
-<br><br>
+
 **TL;DR:** We propose ULRA for unsupervised automated essay scoring, which utilizes multiple heuristic quality signals to train a neural network using Deep Pairwise Rank Aggregation loss.
 
 </div>
@@ -159,7 +157,7 @@ Jun Zhang<sup>†</sup>;
 [[poster](../files/cpl-poster.pdf)]
 [[slides](../files/cpl-slides.pdf)]
 [[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
-<br><br>
+
 **TL;DR:** We propose Constrained Proxies Learning for deep ordinal classification, which learns proxies for ordinal classes and adjusts their layout in feature space to capture ordinal relationships.
 
 </div>
