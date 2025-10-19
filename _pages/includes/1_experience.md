@@ -3,21 +3,21 @@
 <div class="experience">
 <div class="text-section" markdown="1">
 
-- ***2024.10*** -- ***Present***, Visiting Ph.D. Student,  
-School of Computing and Information Systems, Singapore Management University, Singapore.
-
-</div>
-<div class="image-section"><img src="images/experience-images/smu.png" alt="SMU"></div>
-</div>
-
-<div class="experience">
-<div class="text-section" markdown="1">
-
 - ***2021.09*** -- ***Present***, Ph.D. Student,  
 School of Computer Science, Nanjing University, Nanjing, China.
 
 </div>
 <div class="image-section"><img src="images/experience-images/nju.png" alt="NJU"></div>
+</div>
+
+<div class="experience">
+<div class="text-section" markdown="1">
+
+- ***2024.10*** -- ***2025.10***, Visiting Ph.D. Student,  
+School of Computing and Information Systems, Singapore Management University, Singapore.
+
+</div>
+<div class="image-section"><img src="images/experience-images/smu.png" alt="SMU"></div>
 </div>
 
 <div class="experience">
