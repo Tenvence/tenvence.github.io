@@ -53,14 +53,16 @@ Wei Yang;
 [**Cong Wang**](https://tenvence.github.io/)\*,
 Zexuan Deng\*,
 [Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
+[Yafeng Yin](https://yafengnju.github.io)<sup>†</sup>,
 [Fei Shen](https://muzishen.github.io/),
-[Yafeng Yin](https://yafengnju.github.io),
-Shiwei Gan,
 [Zifeng Cheng](https://zifengcheng.github.io),
 [Shiping Ge](https://shipingge.github.io),
+Shiwei Gan,
 [Qing Gu](https://isetnju.github.io/guq/index.html);  
 *Annual Conference on Neural Information Processing Systems* (**NeurIPS**), 2025.  
+[[paper](https://openreview.net/pdf/5c1ac5085bea335ce3add0a2c7d851b2de126868.pdf)]
 [[code](https://github.com/umnooob/signvip/)]
+[[poster](../files/signvip-poster.pdf)]
 [[arXiv](https://arxiv.org/abs/2506.15980)]
 
 **TL;DR:** 
