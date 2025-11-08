@@ -13,8 +13,8 @@
 
 ## 2025
 
-- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C15]</b></span> ***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***; **C. Wang**, Z. Deng, Z. Jiang, F. Shen, Y. Yin, S. Gan, Z. Cheng, S. Ge, Q. Gu; **NeurIPS**.
-- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C14]</b></span> ***Steering When Necessary: Flexible Steering Large Language Models with Backtracking***; J. Gan, Z. Cheng, Z. Jiang, **C. Wang**, Y. Yin, X. Luo, Y. Fu, Q. Gu; **NeurIPS**.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C15]</b></span> ***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***; **C. Wang**, Z. Deng, Z. Jiang, Y. Yin, F. Shen, Z. Cheng, S. Ge, S. Gan, Q. Gu; **NeurIPS**.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C14]</b></span> ***Steering When Necessary: Flexible Steering Large Language Models with Backtracking***; Z. Cheng, J. Gan, Z. Jiang, **C. Wang**, Y. Yin, X. Luo, Y. Fu, Q. Gu; **NeurIPS**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C13]</b></span> ***Contrastive Prompting Enhances Sentence Embeddings in LLMs through Inference-Time Steering***; Z. Cheng, Z. Wang, Y. Fu, Z. Jiang, Y. Yin, **C. Wang**, Q. Gu; **ACL**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C12]</b></span> ***Multi-Prompting Decoder Helps Better Language Understanding***; Z. Cheng, Z. Chen, Z. Jiang, Y. Yin, **C. Wang**, S. Ge, Q. Gu; **ACL Findings**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C11]</b></span> ***Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model***; F. Shen, **C. Wang**, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua; **ICML**.
