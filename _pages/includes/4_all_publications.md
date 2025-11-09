@@ -9,7 +9,7 @@
 ## 2026
 
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C17]</b></span> ***IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation***; J. Yu, X. Du, **C. Wang**, Y. Sun, H. Tang, Q. Guo, F. Shen; **AAAI**.
-- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C16]</b></span> ***RegionMarker: A Region-Triggered Semantic Watermarking Framework for Embedding-as-a-Service Copyright Protection***; S. Fan, Z. Cheng, Z. Jiang, Y. Yin, **C. Wang**, S. Ge, Y. Fu, Q. Gu; **AAAI**.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C16]</b></span> ***RegionMarker: A Region-Triggered Semantic Watermarking Framework for Embedding-as-a-Service Copyright Protection***; S. Yang, Z. Cheng, Z. Jiang, Y. Yin, **C. Wang**, S. Ge, Y. Fu, Q. Gu; **AAAI**.
 
 ## 2025
 
