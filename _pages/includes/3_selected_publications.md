@@ -62,6 +62,7 @@ Shiwei Gan,
 *Annual Conference on Neural Information Processing Systems* (**NeurIPS**), 2025.  
 [[paper](https://openreview.net/pdf/5c1ac5085bea335ce3add0a2c7d851b2de126868.pdf)]
 [[code](https://github.com/umnooob/signvip/)]
+[[model](https://huggingface.co/umnooob/signvip)]
 [[poster](../files/signvip-poster.pdf)]
 [[arXiv](https://arxiv.org/abs/2506.15980)]
 
