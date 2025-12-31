@@ -1,6 +1,7 @@
-I am pursuing a Ph.D. degree at Nanjing University under the supervision of Professor [Qing Gu (顾庆)](https://isetnju.github.io/guq/index.html) and Assistant Professor [Zhiwei Jiang (蒋智威)](https://zhiweinju.github.io).
+I am currently a post-doctoral researcher at Software Institute, Nanjing University.
+In December 2025, I received my Ph.D. degree from School of Computer Science, Nanjing University under the supervision of Professor [Qing Gu (顾庆)](https://isetnju.github.io/guq/index.html) and Assistant Professor [Zhiwei Jiang (蒋智威)](https://zhiweinju.github.io).
 
-I have a broad interest in computer vision and deep learning, with a current focus on controllable and consistent generation in AIGC, including *controllable and consistency image/video generation*.
+I have a broad interest in computer vision and deep learning, with a current focus on controllable and consistent generation in AIGC, including *controllable and consistency vision generation*.
 
 From Oct. 2024 to Oct. 2025, I was a visiting Ph.D. student at Singapore Management University, where I was guided by Associate Professor [Qianru Sun](https://qianrusun.com) and Assistant Professor [Jiannan Li](https://jchrisli.github.io), with funding from the China Scholarship Council (CSC).
 

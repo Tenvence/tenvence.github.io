@@ -3,7 +3,17 @@
 <div class="experience">
 <div class="text-section" markdown="1">
 
-- ***2021.09*** -- ***Present***, Ph.D. Student,  
+- ***2026.01*** -- ***Present***, Post-Doctoral Researcher,  
+Software Institute, Nanjing University, Nanjing, China.
+
+</div>
+<div class="image-section"><img src="images/experience-images/nju.png" alt="NJU"></div>
+</div>
+
+<div class="experience">
+<div class="text-section" markdown="1">
+
+- ***2021.09*** -- ***2025.12***, Ph.D. Student,  
 School of Computer Science, Nanjing University, Nanjing, China.
 
 </div>
