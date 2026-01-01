@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Cong Wang (王聪)"
   avatar           : "images/profile.png"
-  bio              : "Post-Doctoral Researcher, Nanjing University"
+  bio              : "Independent Researcher"
   location         : "Nanjing, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=h7EIOCUAAAAJ"
-  email            : "cw@smail.nju.edu.cn"
+  email            : "tenvence@foxmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
