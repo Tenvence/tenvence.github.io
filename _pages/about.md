@@ -20,7 +20,9 @@ redirect_from:
 
 {% include_relative includes/4_all_publications.md %}
 
-{% include_relative includes/5_academic_services.md %}
+{% include_relative includes/5_students.md %}
+
+{% include_relative includes/6_academic_services.md %}
 
 ---
 
