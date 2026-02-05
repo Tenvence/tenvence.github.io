@@ -87,29 +87,6 @@
 
 }
 
-.experience {
-    display: flex; // 使用 Flexbox 布局
-    justify-content: space-between; // 左右两侧元素之间的间隔
-    align-items: center; // 垂直居中对齐
-    padding: 7px 0px 7px 0px; // 内边距
-
-    .text-section {
-        flex: 0 0 90%; // 文字部分占用剩余空间
-        margin-right: 5%; // 文字和图片之间的间隔
-    }
-
-    .image-section {
-        flex: 0 0 5%; // 设定图片部分的最大宽度
-        max-width: 5%; // 设定图片部分的最大宽度
-
-        img {
-            width: 100%; // 图片宽度占满容器
-            max-height: 100px; // 最大高度不超过 100px
-            object-fit: contain; // 保持图像比例，裁剪超出部分
-        }
-    }
-}
-
 
 $scroll_offset : 2em;
 
