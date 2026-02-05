@@ -14,6 +14,9 @@ main:
   
   - title: "All Publications"
     url: "/#all-publications"
+
+  - title: "Students"
+    url: "/#students"
   
   - title: "Academic Services"
     url: "/#academic-services"
