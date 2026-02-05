@@ -1,5 +1,8 @@
 # Students
 
-- **Huiyi Wang** (Ph.D. Student, 2025, co-supervised with Qing Gu & Zhiwei Jiang)
-- **Haiyu Wu** (Master Student, 2025, co-supervised with Qing Gu & Zhiwei Jiang)
-- **Zexuan Deng** (Master Student, 2023, co-supervised with Qing Gu & Zhiwei Jiang): **NeurIPS** x 1
+- **Ph.D. Students**
+  - ***Huiyi Wang*** (2025, co-supervised with Qing Gu & Zhiwei Jiang)
+- **Master Students**
+  - ***Zexuan Deng*** (2023, co-supervised with Qing Gu & Zhiwei Jiang): **NeurIPS** x 1
+  - ***Haiyu Wu*** (2025, co-supervised with Qing Gu & Zhiwei Jiang)
+<!-- - **Master Alumni** -->
