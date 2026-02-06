@@ -27,7 +27,7 @@ Wei Yang;
 [[arXiv](https://arxiv.org/abs/2406.02511)]
 [[models](https://huggingface.co/tk93/V-Express/)]
 
-**TL;DR:** V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.
+**TL;DR:** We propopse V-Express for talking-head generation, which adpots conditional dropout strategy to balance the control strengths of mutimodal conditions.
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/tencent-ailab/V-Express?style=for-the-badge&logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express?style=for-the-badge&logo=github)
@@ -67,9 +67,7 @@ Shiwei Gan,
 [[arXiv](https://arxiv.org/abs/2506.15980)]
 
 **TL;DR:** 
-We propose SignViP, a novel SLVG framework that incorporates
-multiple fine-grained conditions for improved generation fidelity, which adopts a
-discrete tokenization paradigm to integrate and represent the conditions.
+We propose SignViP for sign language video generation, which adopts a discrete tokenization paradigm to integrate and represent multiple fine-grained conditions.
 
 ![Static Badge](https://img.shields.io/badge/Spotlight_Paper-Top_(77%2B688)%2F21575%3D3.55%25_submissions-gray?style=for-the-badge&labelColor=red)
 
@@ -101,7 +99,7 @@ Jun Zhang<sup>†</sup>;
 [[poster](../files/afa-poster.pdf)]
 [[arXiv](https://arxiv.org/abs/2506.15980)]
 
-**TL;DR:** We propose AFA to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
+**TL;DR:** We propose AFA to ensemble multiple diffusion models based on different states like prompts, noises, timesteps, and spatial locations.
 
 </div>
 </div>
@@ -131,7 +129,7 @@ Jun Zhang<sup>†</sup>;
 [[slides](../files/ulra-slides.pdf)]
 [[video](https://aclanthology.org/2023.acl-long.782.mp4)]
 
-**TL;DR:** We propose ULRA for unsupervised automated essay scoring, which utilizes multiple heuristic quality signals to train a neural network using Deep Pairwise Rank Aggregation loss.
+**TL;DR:** We propose ULRA for unsupervised automated essay scoring, which aggregates multiple heuristic quality signals to construct robust training object.
 
 </div>
 </div>
@@ -161,7 +159,7 @@ Jun Zhang<sup>†</sup>;
 [[slides](../files/cpl-slides.pdf)]
 [[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
 
-**TL;DR:** We propose Constrained Proxies Learning for deep ordinal classification, which learns proxies for ordinal classes and adjusts their layout in feature space to capture ordinal relationships.
+**TL;DR:** We propose CPL for deep ordinal classification, which learns proxies for ordinal classes and adjusts their layout in feature space to capture ordinal relationships.
 
 </div>
 </div>
