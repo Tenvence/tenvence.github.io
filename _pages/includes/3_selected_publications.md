@@ -101,7 +101,7 @@ Jun Zhang<sup>†</sup>;
 [[poster](../files/afa-poster.pdf)]
 [[arXiv](https://arxiv.org/abs/2506.15980)]
 
-**TL;DR:** We propose Adaptive Feature Aggregation (AFA) to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
+**TL;DR:** We propose AFA to ensemble multiple diffusion models dynamically based on different states like prompts, noises, and spatial locations.
 
 </div>
 </div>
