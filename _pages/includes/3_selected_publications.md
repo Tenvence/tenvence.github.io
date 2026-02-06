@@ -13,11 +13,11 @@
 ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***;  
 [**Cong Wang**](https://tenvence.github.io/)\*,
 Kuan Tian\*,
-Jun Zhang<sup>†</sup>,
+Jun Zhang<sup>✉</sup>,
 Yonghang Guan,
 Feng Luo,
 [Fei Shen](https://muzishen.github.io/),
-[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
+[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>✉</sup>,
 [Qing Gu](https://isetnju.github.io/guq/index.html),
 Xiao Han,
 Wei Yang;  
@@ -27,7 +27,7 @@ Wei Yang;
 [[arXiv](https://arxiv.org/abs/2406.02511)]
 [[models](https://huggingface.co/tk93/V-Express/)]
 
-**TL;DR:** We propopse V-Express for talking-head generation, which adpots conditional dropout strategy to balance the control strengths of mutimodal conditions.
+**TL;DR:** We propopse V-Express for talking-head generation, which adpots conditional dropout to balance the control strengths of mutimodal conditions.
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/tencent-ailab/V-Express?style=for-the-badge&logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express?style=for-the-badge&logo=github)
@@ -52,8 +52,8 @@ Wei Yang;
 ***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***;  
 [**Cong Wang**](https://tenvence.github.io/)\*,
 Zexuan Deng\*,
-[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
-[Yafeng Yin](https://yafengnju.github.io)<sup>†</sup>,
+[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>✉</sup>,
+[Yafeng Yin](https://yafengnju.github.io)<sup>✉</sup>,
 [Fei Shen](https://muzishen.github.io/),
 [Zifeng Cheng](https://zifengcheng.github.io),
 [Shiping Ge](https://shipingge.github.io),
@@ -67,7 +67,7 @@ Shiwei Gan,
 [[arXiv](https://arxiv.org/abs/2506.15980)]
 
 **TL;DR:** 
-We propose SignViP for sign language video generation, which adopts a discrete tokenization paradigm to integrate and represent multiple fine-grained conditions.
+We propose SignViP for sign language video generation, which adopts discrete tokenization to integrate and represent multiple fine-grained conditions.
 
 ![Static Badge](https://img.shields.io/badge/Spotlight_Paper-Top_(77%2B688)%2F21575%3D3.55%25_submissions-gray?style=for-the-badge&labelColor=red)
 
@@ -90,9 +90,9 @@ We propose SignViP for sign language video generation, which adopts a discrete t
 Kuan Tian\*,
 Yonghang Guan,
 [Fei Shen](https://muzishen.github.io/),
-[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
+[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>✉</sup>,
 [Qing Gu](https://isetnju.github.io/guq/index.html),
-Jun Zhang<sup>†</sup>;  
+Jun Zhang<sup>✉</sup>;  
 *International Conference on Learning Representations* (**ICLR**), 2025.  
 [[paper](https://openreview.net/pdf?id=e32cI4r8Eo)]
 [[code](https://github.com/tenvence/afa/)]
@@ -117,7 +117,7 @@ Jun Zhang<sup>†</sup>;
 
 ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***;  
 [**Cong Wang**](https://tenvence.github.io/),
-[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
+[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>✉</sup>,
 [Yafeng Yin](https://yafengnju.github.io),
 [Zifeng Cheng](https://zifengcheng.github.io),
 [Shiping Ge](https://shipingge.github.io),
@@ -147,7 +147,7 @@ Jun Zhang<sup>†</sup>;
 
 ***Controlling Class Layout for Deep Ordinal Classification via Constrained Proxies Learning***;  
 [**Cong Wang**](https://tenvence.github.io/),
-[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
+[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>✉</sup>,
 [Yafeng Yin](https://yafengnju.github.io),
 [Zifeng Cheng](https://zifengcheng.github.io),
 [Shiping Ge](https://shipingge.github.io),
@@ -159,10 +159,8 @@ Jun Zhang<sup>†</sup>;
 [[slides](../files/cpl-slides.pdf)]
 [[arXiv](https://doi.org/10.48550/arXiv.2303.00396)]
 
-**TL;DR:** We propose CPL for deep ordinal classification, which learns proxies for ordinal classes and adjusts their layout in feature space to capture ordinal relationships.
+**TL;DR:** We propose CPL for ordinal classification, which learns proxies for ordinal classes and adjusts their layout to capture ordinal relationships.
 
 </div>
 </div>
 <!-- END | CPL, AAAI 2023 -->
-
-> \* denotes equal contribution. <sup>†</sup> denotes the corresponding author.
