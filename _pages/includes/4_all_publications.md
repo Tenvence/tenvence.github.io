@@ -2,13 +2,14 @@
 
 ## Preprints
 
-- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P04]</b></span> ***Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation***; Chuancheng Shi, Shangze Li, Shiming Guo, Simiao Xie, Wenhua Wu, Jingtong Dou, Chao Wu, Canran Xiao, **Cong Wang**, Zifeng Cheng, Fei Shen, Tat-Seng Chua.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P03]</b></span> ***IMAGGarment: Fine-Grained Garment Generation for Controllable Fashion Design***; Fei Shen, Jian Yu, **Cong Wang**, Xin Jiang, Xiaoyu Du, Jinhui Tang.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P02]</b></span> ***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***; Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, Zhaoling Chen, **Cong Wang**, Shiping Ge, Qiguo Huang, Qing Gu.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P01]</b></span> ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***; **Cong Wang**, Kuan Tian, Jun Zhang, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang, Qing Gu, Xiao Han, Wei Yang.
 
 ## 2026
 
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C19]</b></span> ***Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation***; Chuancheng Shi, Shangze Li, Shiming Guo, Simiao Xie, Wenhua Wu, Jingtong Dou, Chao Wu, Canran Xiao, **Cong Wang**, Zifeng Cheng, Fei Shen, Tat-Seng Chua; **CVPR**.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C18]</b></span> ***Rethinking BCE Loss for Multi-Label Image Recognition with Fine-tuning***; Ao Zhou, Zhiwei Jiang, Zifeng Cheng, **Cong Wang**, Yafeng Yin, Shufan Yang, Qing Gu; **CVPR**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C17]</b></span> ***IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation***; Jian Yu, Xiaoyu Du, **Cong Wang**, Yanpeng Sun, Hao Tang, Qing Guo, Fei Shen; **AAAI**.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[C16]</b></span> ***RegionMarker: A Region-Triggered Semantic Watermarking Framework for Embedding-as-a-Service Copyright Protection***; Sunfan Yang, Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, **Cong Wang**, Shiping Ge, Yuchen Fu, Qing Gu; **AAAI**.
 
