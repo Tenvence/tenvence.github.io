@@ -2,6 +2,8 @@
 
 ## Preprints
 
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P04]</b></span> ***TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention***; Chuancheng Shi, Shangze Li, Wenjun Lu, Wenhua Wu, **Cong Wang**, Zifeng Cheng, Fei Shen, Tat-Seng Chua.
+- <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P03]</b></span> ***Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons***; Xianhui Zhang, Chengyu Xie, Linxia Zhu, Yonghui Yang, Weixiang Zhao, Zifeng Cheng, **Cong Wang**, Fei Shen, Tat-Seng Chua.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P02]</b></span> ***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***; Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, Zhaoling Chen, **Cong Wang**, Shiping Ge, Qiguo Huang, Qing Gu.
 - <span style="font-family: 'Courier New', Courier, monospace; color: #888;"><b>[P01]</b></span> ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***; **Cong Wang**, Kuan Tian, Jun Zhang, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang, Qing Gu, Xiao Han, Wei Yang.
 
