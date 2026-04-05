@@ -27,7 +27,7 @@ Wei Yang;
 [[arXiv](https://arxiv.org/abs/2406.02511)]
 [[models](https://huggingface.co/tk93/V-Express/)]
 
-**TL;DR:** We propopse V-Express for talking-head generation, which adpots conditional dropout to balance the control strengths of mutimodal conditions.
+**TL;DR:** We propopse V-Express for talking-head generation, which adpots conditional dropout to balance the control strengths of mutiple conditions.
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/tencent-ailab/V-Express?style=for-the-badge&logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/tencent-ailab/V-Express?style=for-the-badge&logo=github)
