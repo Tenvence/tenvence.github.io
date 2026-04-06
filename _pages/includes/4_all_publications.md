@@ -26,7 +26,7 @@
 - ***Fine-Grained Alignment Network for Zero-Shot Cross-Modal Retrieval***; Shiping Ge, Zhiwei Jiang, Yafeng Yin, **Cong Wang**, Zifeng Cheng, Qing Gu; **TOMM**.
 - ***Ensembling Diffusion Models via Adaptive Feature Aggregation***; **Cong Wang**, Kuan Tian, Yonghang Guan, Fei Shen, Zhiwei Jiang, Qing Gu, Jun Zhang; **ICLR**.
 - ***IMAGDressing-v1: Customizable Virtual Dressing***; Fei Shen, Xin Jiang, Xin He, Hu Ye, **Cong Wang**, Xiaoyu Du, Zechao Li, Jinhui Tang; **AAAI**.
-- **Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models***; Fei Shen, Hu Ye, Sibo Liu, Jun Zhang, **Cong Wang**, Xiao Han, Wei Yang; **AAAI**.
+- ***Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models***; Fei Shen, Hu Ye, Sibo Liu, Jun Zhang, **Cong Wang**, Xiao Han, Wei Yang; **AAAI**.
 
 ## 2024
 
