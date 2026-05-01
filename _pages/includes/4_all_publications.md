@@ -10,6 +10,10 @@
 
 ## 2026
 
+- **ScaleErasure: Inference-Time Minimal Intervention for Precise Concept Erasure in Next-Scale Autoregressive Image Generation**; **Cong Wang**, Haiyu Wu, Zhiwei Jiang, Zifeng Cheng, Fei Shen, Yafeng Yin, Qing Gu; **ICML**.
+- **TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention**; Chuancheng Shi, Shangze Li, Wenjun Lu, Wenhua Wu, Fei Shen, **Cong Wang**, Zifeng Cheng, Tat-Seng Chua; **ICML**.
+- **Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons**; Xianhui Zhang, Chengyu Xie, Linxia Zhu, Yonghui Yang, Weixiang Zhao, Zifeng Cheng, **Cong Wang**, Fei Shen, Tat-Seng Chua; **ICML**.
+- ***Multi-Label Test-Time Adaptation with Bayesian Conditional Priors***; Qiru Li, Ao Zhou, Zhiwei Jiang, Zifeng Cheng, **Cong Wang**, Yafeng Yin, Qing Gu; **ICML**.
 - ***Focusing Condition: Inference-Time Self-Contrastive Steering Elicits Better Conditional Text Embeddings in LLMs***; Zifeng Cheng, Lingyun Qian, Zhiwei Jiang, **Cong Wang**, Yafeng Yin, Fei Shen, Ao Zhou, Qing Gu; **ACL**.
 - ***AEA: Adaptive Expert Allocation Improves Sentence Embeddings from Mixture-of-Experts LLM***; Shufan Yang, Zifeng Cheng, Zhiwei Jiang, Qingfeng Qi, Yafeng Yin, **Cong Wang**, Ao Zhou, Qing Gu; **ACL**.
 - ***IMAGGarment: Fine-Grained Garment Generation for Controllable Fashion Design***; Fei Shen, Jian Yu, **Cong Wang**, Xin Jiang, Xiaoyu Du, Jinhui Tang; **TVCG**.
