@@ -80,7 +80,7 @@ We propose SignViP for sign language video generation, which adopts discrete tok
 <div class='paper-box-image'>
 <div>
 <div class="badge">ICML 2026</div>
-<img src='images/paper-images/signvip.png' alt="sym" width="100%">
+<img src='images/paper-images/scale-erasure.png' alt="sym" width="100%">
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
@@ -93,12 +93,7 @@ Haiyu Wu\*,
 [Fei Shen](https://muzishen.github.io/),
 [Yafeng Yin](https://yafengnju.github.io)<sup>✉</sup>,
 [Qing Gu](https://isetnju.github.io/guq/index.html);  
-*International Conference on Machine Learning* (**ICML**), 2026.  
-<!-- [[paper](https://openreview.net/pdf/5c1ac5085bea335ce3add0a2c7d851b2de126868.pdf)]
-[[code](https://github.com/umnooob/signvip/)]
-[[model](https://huggingface.co/umnooob/signvip)]
-[[poster](../files/signvip-poster.pdf)]
-[[arXiv](https://arxiv.org/abs/2506.15980)] -->
+*International Conference on Machine Learning* (**ICML**), 2026.
 
 **TL;DR:** 
 We propose ScaleErasure, an inference-time concept erasure method for next-scale autoregressive image generation, enabling precise and minimally invasive intervention across scale, token, and bit-channel dimensions.
