@@ -91,7 +91,7 @@ Haiyu Wu\*,
 [Zhiwei Jiang](https://zhiweinju.github.io/)<sup>✉</sup>,
 [Zifeng Cheng](https://zifengcheng.github.io),
 [Fei Shen](https://muzishen.github.io/),
-[Yafeng Yin](https://yafengnju.github.io)<sup>✉</sup>,
+[Yafeng Yin](https://yafengnju.github.io),
 [Qing Gu](https://isetnju.github.io/guq/index.html);  
 *International Conference on Machine Learning* (**ICML**), 2026.
 
