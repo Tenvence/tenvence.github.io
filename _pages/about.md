@@ -23,9 +23,3 @@ redirect_from:
 {% include_relative includes/5_students.md %}
 
 {% include_relative includes/6_academic_services.md %}
-
----
-
-<br/>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=-zDSAavhko-7FqVgGMmXcQenQGeLW3e_A1KLcKsvnvM'></script>
-<br/>

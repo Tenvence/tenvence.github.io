@@ -1,8 +1,6 @@
 # Academic Services
 
-- **Journal Reviewer**: 
-TNNLS, 
-TOMM;
+
 - **Conference Reviewer**:
 MM (26, 25, 24, 23), 
 ECCV (26),
@@ -15,4 +13,7 @@ NeurIPS (25),
 ICCV (25), 
 IJCAI (25), 
 ICIC (24), 
-EMNLP (23).
+EMNLP (23). 
+- **Journal Reviewer**: 
+TNNLS, 
+TOMM;
