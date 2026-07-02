@@ -1,18 +1,15 @@
 # main links links
 main:
-  - title: "About Me"
-    url: "/#about-me"
-
   - title: "Research Experience"
     url: "/#research-experience"
   
-  - title: "Honors and Awards"
+  - title: "Honors & Awards"
     url: "/#honors-and-awards"
   
-  - title: "Selected Publications"
+  - title: "Selected Pub."
     url: "/#selected-publications"
   
-  - title: "All Publications"
+  - title: "All Pub."
     url: "/#all-publications"
 
   - title: "Students"
