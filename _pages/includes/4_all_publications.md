@@ -2,7 +2,6 @@
 
 ## Preprints
 
-- ***Dynamic Distribution-Aware Uncertainty Tracking in Vision-Language Representation Learning***; Ao Zhou, Zhiwei Jiang, Zifeng Cheng, **Cong Wang**, Shufan Yang, Haoru Chen, Qing Gu.
 - ***SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs***; Jian Yu, Fei Shen, **Cong Wang**, Jian Wang, Lu Jin Du, Jinhui Tang, Tat-Seng Chua.
 - ***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***; Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, Zhaoling Chen, **Cong Wang**, Shiping Ge, Qiguo Huang, Qing Gu.
 - ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***; **Cong Wang**, Kuan Tian, Jun Zhang, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang, Qing Gu, Xiao Han, Wei Yang.
