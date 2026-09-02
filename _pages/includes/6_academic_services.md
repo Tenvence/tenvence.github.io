@@ -1,18 +1,18 @@
 # Academic Services
 
 - **Conference Reviewer**:
-AAAI (27, 26), 
-MM (26, 25, 24, 23), 
+ICLR (27, 26, 25),
+AAAI (27, 26),
+MM (26, 25, 24, 23),
 ECCV (26),
-ICML (26, 25), 
-ACL ARR (Jan. 26, Oct. 25, Jul. 25, May 25, Feb. 25), 
-CVPR (26), 
-ICLR (26, 25), 
-NeurIPS (25), 
-ICCV (25), 
-IJCAI (25), 
-ICIC (24), 
-EMNLP (23). 
-- **Journal Reviewer**: 
-TNNLS, 
+ICML (26, 25),
+ACL ARR (Jan. 26, Oct. 25, Jul. 25, May 25, Feb. 25),
+CVPR (26),
+NeurIPS (25),
+ICCV (25),
+IJCAI (25),
+ICIC (24),
+EMNLP (23).
+- **Journal Reviewer**:
+TNNLS,
 TOMM.
