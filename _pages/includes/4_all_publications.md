@@ -9,7 +9,7 @@
 
 ## 2026
 
-- ***SketchDiff: Progressive Diffusion for Photorealistic Portrait Generation from Rough Sketches***; Chenlu Yang,Dapeng Zhang,Lei Xing,Quanjian Song,Cong Wang,Fei Shen; **TNNLS**.
+- ***SketchDiff: Progressive Diffusion for Photorealistic Portrait Generation from Rough Sketches***; Chenlu Yang, Dapeng Zhang, Lei Xing, Quanjian Song, **Cong Wang**, Fei Shen; **TNNLS**.
 - ***VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis***; Jian Yu, Fei Shen, **Cong Wang**, Yi Xin, Si Shen, Xiaoyu Du, Jinhui Tang; **MM**.
 - ***Dynamic Distribution-Aware Uncertainty Tracking in Vision-Language Representation Learning***; Ao Zhou, Zhiwei Jiang, Zifeng Cheng, **Cong Wang**, Shufan Yang, Haoru Chen, Qing Gu; **MM**.
 - ***ScaleErasure: Inference-Time Minimal Intervention for Precise Concept Erasure in Next-Scale Autoregressive Image Generation***; **Cong Wang**, Haiyu Wu, Zhiwei Jiang, Zifeng Cheng, Fei Shen, Yafeng Yin, Qing Gu; **ICML**.
