@@ -1,6 +1,6 @@
 # Honors and Awards
 
-- Jiangsu Excellent Postdoctoral Program (Category B); Jiangsu Provincial Department of Human Resources and Social Security; 2026.
+- Jiangsu Funding Program for Excellent Postdoctoral Talent (Category B); Jiangsu Prov. Dept. of Human Resources & Social Security; 2026.
 - Nomination for Outstanding Doctoral Dissertation Award; School of Computer Science, Nanjing University; 2026.
 - Chinese Government Graduate Student Overseas Study Program; China Scholarship Council (CSC); 2024.
 - Tencent Rhino-Bird Research Elite Program; Tencent; 2023.
