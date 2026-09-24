@@ -2,13 +2,14 @@
 
 ## Preprints
 
-- ***Accelerating Diffusion Language Models via Structured Suffix Modeling***; Zifeng Cheng, Keda Li, Zhiwei Jiang, **Cong Wang**, Fei Shen, Qing Gu.
 - ***SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs***; Jian Yu, Fei Shen, **Cong Wang**, Jian Wang, Lu Jin Du, Jinhui Tang, Tat-Seng Chua.
 - ***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***; Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, Zhaoling Chen, **Cong Wang**, Shiping Ge, Qiguo Huang, Qing Gu.
 - ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***; **Cong Wang**, Kuan Tian, Jun Zhang, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang, Qing Gu, Xiao Han, Wei Yang.
 
 ## 2026
 
+- ***Accelerating Diffusion Language Models via Structured Suffix Modeling***; Zifeng Cheng, Keda Li, Zhiwei Jiang, **Cong Wang**, Fei Shen, Qing Gu; **NeurIPS**.
+- ***SAME: Stability-Aware Embedding Extraction in Mixture-of-Experts Language Models***; Shufan Yang, Zifeng Cheng, Zhiwei Jiang, Hao Wang, Miao Xue, Changhui Sun, **Cong Wang**, Ao Zhou, Qing Gu; **NeurIPS**.
 - ***SketchDiff: Progressive Diffusion for Photorealistic Portrait Generation from Rough Sketches***; Chenlu Yang, Dapeng Zhang, Lei Xing, Quanjian Song, **Cong Wang**, Fei Shen; **TNNLS**.
 - ***VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis***; Jian Yu, Fei Shen, **Cong Wang**, Yi Xin, Si Shen, Xiaoyu Du, Jinhui Tang; **MM**.
 - ***Dynamic Distribution-Aware Uncertainty Tracking in Vision-Language Representation Learning***; Ao Zhou, Zhiwei Jiang, Zifeng Cheng, **Cong Wang**, Shufan Yang, Haoru Chen, Qing Gu; **MM**.
@@ -22,7 +23,7 @@
 - ***Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation***; Chuancheng Shi, Shangze Li, Shiming Guo, Simiao Xie, Wenhua Wu, Jingtong Dou, Chao Wu, Canran Xiao, **Cong Wang**, Zifeng Cheng, Fei Shen, Tat-Seng Chua; **CVPR**.
 - ***Rethinking BCE Loss for Multi-Label Image Recognition with Fine-Tuning***; Ao Zhou, Zhiwei Jiang, Zifeng Cheng, **Cong Wang**, Yafeng Yin, Shufan Yang, Qing Gu; **CVPR**.
 - ***IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation***; Jian Yu, Xiaoyu Du, **Cong Wang**, Yanpeng Sun, Hao Tang, Qing Guo, Fei Shen; **AAAI**.
-- ***RegionMarker: A Region-Triggered Semantic Watermarking Framework for Embedding-as-a-Service Copyright Protection***; Sunfan Yang, Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, **Cong Wang**, Shiping Ge, Yuchen Fu, Qing Gu; **AAAI**.
+- ***RegionMarker: A Region-Triggered Semantic Watermarking Framework for Embedding-as-a-Service Copyright Protection***; Shufan Yang, Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, **Cong Wang**, Shiping Ge, Yuchen Fu, Qing Gu; **AAAI**.
 
 ## 2025
 
