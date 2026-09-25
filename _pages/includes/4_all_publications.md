@@ -1,11 +1,5 @@
 # All Publications
 
-## Preprints
-
-- ***SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs***; Jian Yu, Fei Shen, **Cong Wang**, Jian Wang, Lu Jin Du, Jinhui Tang, Tat-Seng Chua.
-- ***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***; Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, Zhaoling Chen, **Cong Wang**, Shiping Ge, Qiguo Huang, Qing Gu.
-- ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***; **Cong Wang**, Kuan Tian, Jun Zhang, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang, Qing Gu, Xiao Han, Wei Yang.
-
 ## 2026
 
 - ***Accelerating Diffusion Language Models via Structured Suffix Modeling***; Zifeng Cheng, Keda Li, Zhiwei Jiang, **Cong Wang**, Fei Shen, Qing Gu; **NeurIPS**.
@@ -53,3 +47,9 @@
 
 - ***A Consistent Dual-MRC Framework for Emotion-Cause Pair Extraction***; Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, **Cong Wang**, Shiping Ge, Qing Gu; **TOIS**.
 - ***Learning to Classify Open Intent via Soft Labeling and Manifold Mixup***; Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, **Cong Wang**, Qing Gu; **TASLP**.
+
+## Preprints
+
+- ***SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs***; Jian Yu, Fei Shen, **Cong Wang**, Jian Wang, Lu Jin Du, Jinhui Tang, Tat-Seng Chua.
+- ***A Debiased Nearest Neighbors Framework for Multi-Label Text Classification***; Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, Zhaoling Chen, **Cong Wang**, Shiping Ge, Qiguo Huang, Qing Gu.
+- ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***; **Cong Wang**, Kuan Tian, Jun Zhang, Yonghang Guan, Feng Luo, Fei Shen, Zhiwei Jiang, Qing Gu, Xiao Han, Wei Yang.
