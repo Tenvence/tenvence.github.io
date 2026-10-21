@@ -1,7 +1,9 @@
 # Academic Services
 
 - **Area Chair**:
-ACL ARR (Oct. 26), ICLR (27).
+ICML (27),
+ACL ARR (Oct. 26),
+ICLR (27).
 - **Conference Reviewer**:
 AAAI (27, 26),
 MM (26, 25, 24, 23),
