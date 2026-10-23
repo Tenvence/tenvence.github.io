@@ -117,6 +117,11 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  papers:
+    output: false
+
 # Defaults
 defaults:
   # _pages
@@ -126,6 +131,12 @@ defaults:
     values:
       layout: default
       author_profile: true
+  # _papers（order 缺省时排在最后）
+  - scope:
+      path: ""
+      type: papers
+    values:
+      order: 99
 
 
 # Sass/SCSS
