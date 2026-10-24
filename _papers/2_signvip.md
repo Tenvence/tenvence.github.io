@@ -5,15 +5,15 @@ order: 2
 ---
 
 ***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***;  
-[**Cong Wang**](https://tenvence.github.io/)\*,
+**Cong Wang**\*,
 Zexuan Deng\*,
-[Zhiwei Jiang](https://zhiweinju.github.io/)✉,
-[Yafeng Yin](https://yafengnju.github.io)✉,
-[Fei Shen](https://muzishen.github.io/),
-[Zifeng Cheng](https://zifengcheng.github.io),
-[Shiping Ge](https://shipingge.github.io),
+Zhiwei Jiang✉,
+Yafeng Yin✉,
+Fei Shen,
+Zifeng Cheng,
+Shiping Ge,
 Shiwei Gan,
-[Qing Gu](https://isetnju.github.io/guq/index.html);  
+Qing Gu;  
 *Annual Conference on Neural Information Processing Systems* (**NeurIPS**), 2025.  
 [[paper](https://openreview.net/pdf/5c1ac5085bea335ce3add0a2c7d851b2de126868.pdf)]
 [[code](https://github.com/umnooob/signvip/)]

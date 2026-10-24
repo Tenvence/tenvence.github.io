@@ -5,12 +5,12 @@ order: 6
 ---
 
 ***Controlling Class Layout for Deep Ordinal Classification via Constrained Proxies Learning***;  
-[**Cong Wang**](https://tenvence.github.io/),
-[Zhiwei Jiang](https://zhiweinju.github.io/)✉,
-[Yafeng Yin](https://yafengnju.github.io),
-[Zifeng Cheng](https://zifengcheng.github.io),
-[Shiping Ge](https://shipingge.github.io),
-[Qing Gu](https://isetnju.github.io/guq/index.html);  
+**Cong Wang**,
+Zhiwei Jiang✉,
+Yafeng Yin,
+Zifeng Cheng,
+Shiping Ge,
+Qing Gu;  
 *AAAI Conference on Artificial Intelligence* (**AAAI**), 2023.  
 [[paper](https://doi.org/10.1609/aaai.v37i2.25345)]
 [[code](https://github.com/tenvence/cpl)]

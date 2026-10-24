@@ -5,12 +5,12 @@ order: 5
 ---
 
 ***Aggregating Multiple Heuristic Signals as Supervision for Unsupervised Automated Essay Scoring***;  
-[**Cong Wang**](https://tenvence.github.io/),
-[Zhiwei Jiang](https://zhiweinju.github.io/)✉,
-[Yafeng Yin](https://yafengnju.github.io),
-[Zifeng Cheng](https://zifengcheng.github.io),
-[Shiping Ge](https://shipingge.github.io),
-[Qing Gu](https://isetnju.github.io/guq/index.html);  
+**Cong Wang**,
+Zhiwei Jiang✉,
+Yafeng Yin,
+Zifeng Cheng,
+Shiping Ge,
+Qing Gu;  
 *Annual Meeting of the Association for Computational Linguistics* (**ACL**), 2023.  
 [[paper](https://aclanthology.org/2023.acl-long.782/)]
 [[code](https://github.com/tenvence/ulra)]
