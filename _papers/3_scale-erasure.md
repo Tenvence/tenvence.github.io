@@ -5,13 +5,13 @@ order: 3
 ---
 
 ***ScaleErasure: Inference-Time Minimal Intervention for Precise Concept Erasure in Next-Scale Autoregressive Image Generation***;  
-**Cong Wang**\*,
+[**Cong Wang**](https://tenvence.github.io/)\*,
 Haiyu Wu\*,
-Zhiwei Jiang✉,
-Zifeng Cheng,
-Fei Shen,
-Yafeng Yin,
-Qing Gu;  
+[Zhiwei Jiang](https://zhiweinju.github.io/)✉,
+[Zifeng Cheng](https://zifengcheng.github.io),
+[Fei Shen](https://muzishen.github.io/),
+[Yafeng Yin](https://yafengnju.github.io),
+[Qing Gu](https://isetnju.github.io/guq/index.html);  
 *International Conference on Machine Learning* (**ICML**), 2026.  
 [[paper](https://icml.cc/virtual/2026/poster/60671)]
 [[code](https://github.com/coziiizz/ScaleErasure)]

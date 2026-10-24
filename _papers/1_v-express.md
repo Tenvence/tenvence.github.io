@@ -5,14 +5,14 @@ order: 1
 ---
 
 ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***;  
-**Cong Wang**\*,
+[**Cong Wang**](https://tenvence.github.io/)\*,
 Kuan Tian\*,
 Jun Zhang✉,
 Yonghang Guan,
 Feng Luo,
-Fei Shen,
-Zhiwei Jiang✉,
-Qing Gu,
+[Fei Shen](https://muzishen.github.io/),
+[Zhiwei Jiang](https://zhiweinju.github.io/)✉,
+[Qing Gu](https://isetnju.github.io/guq/index.html),
 Xiao Han,
 Wei Yang;  
 *arXiv:2406.02511*.  

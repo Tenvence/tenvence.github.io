@@ -5,12 +5,12 @@ order: 4
 ---
 
 ***Ensembling Diffusion Models via Adaptive Feature Aggregation***;  
-**Cong Wang**\*,
+[**Cong Wang**](https://tenvence.github.io/)\*,
 Kuan Tian\*,
 Yonghang Guan,
-Fei Shen,
-Zhiwei Jiang✉,
-Qing Gu,
+[Fei Shen](https://muzishen.github.io/),
+[Zhiwei Jiang](https://zhiweinju.github.io/)✉,
+[Qing Gu](https://isetnju.github.io/guq/index.html),
 Jun Zhang✉;  
 *International Conference on Learning Representations* (**ICLR**), 2025.  
 [[paper](https://openreview.net/pdf?id=e32cI4r8Eo)]
