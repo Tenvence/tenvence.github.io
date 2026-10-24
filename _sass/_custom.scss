@@ -84,6 +84,26 @@ body {
   }
 }
 
+/* The theme paints a yellow focus outline (#f89406) on every link; it pops back
+   as soon as the pointer leaves a clicked link, so drop it entirely. */
+a:focus,
+a:focus-visible {
+  outline: none;
+}
+
+/* no tap highlight on the header items */
+.masthead a,
+.masthead button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.masthead a:focus,
+.masthead button:focus,
+.masthead a:focus-visible,
+.masthead button:focus-visible {
+  outline: none;
+}
+
 /* the overflow toggle is a capsule inset equally on top / right / bottom */
 .greedy-nav > button {
   right: 0;
