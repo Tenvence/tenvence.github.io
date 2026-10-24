@@ -4,3 +4,5 @@ push.sh
 
 # local preview artifacts
 /.cache/
+
+_style-backup/
