@@ -269,16 +269,49 @@
     }
   }
 
+  var navDistributeTimer = null;
+
+  function scheduleDistribute() {
+    window.clearTimeout(navDistributeTimer);
+    navDistributeTimer = window.setTimeout(distributeNav, 40);
+  }
+
   function alignHeader() {
     resetNavLayout();
     alignMasthead();
     alignSidebar();
-    window.clearTimeout(window.__navDistribute);
-    window.__navDistribute = window.setTimeout(distributeNav, 60);
   }
 
   alignHeader();
   window.addEventListener("resize", alignHeader);
+
+  /* The greedy-nav script loads after this file. Its updateNav() compares the
+     list width with the space left of the toggle; a fixed width would make it
+     loop forever, so let it always measure the natural list and re-spread
+     afterwards. */
+  var navHookAttempts = 0;
+
+  function hookUpdateNav() {
+    if (typeof window.updateNav === "function") {
+      if (!window.updateNav.__dshWrapped) {
+        var originalUpdateNav = window.updateNav;
+        var wrappedUpdateNav = function () {
+          var list = document.querySelector(".greedy-nav .visible-links");
+          if (list) list.style.width = "";
+          var result = originalUpdateNav.apply(this, arguments);
+          scheduleDistribute();
+          return result;
+        };
+        wrappedUpdateNav.__dshWrapped = true;
+        window.updateNav = wrappedUpdateNav;
+      }
+      scheduleDistribute();
+      return;
+    }
+    if (navHookAttempts++ < 200) window.setTimeout(hookUpdateNav, 25);
+  }
+
+  hookUpdateNav();
 
   /* --- heading underline width --------------------------------------------- */
 
