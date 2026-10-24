@@ -13,6 +13,7 @@ Haiyu Wu\*,
 [Yafeng Yin](https://yafengnju.github.io),
 [Qing Gu](https://isetnju.github.io/guq/index.html);  
 *International Conference on Machine Learning* (**ICML**), 2026.  
+[[paper](https://icml.cc/virtual/2026/poster/60671)]
 [[code](https://github.com/coziiizz/ScaleErasure)]
 [[poster](../files/scale-erasure-poster.pdf)]
 [[arXiv](https://arxiv.org/abs/2606.29282)]
