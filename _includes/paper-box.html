@@ -1,15 +1,16 @@
 {% comment %}
   正文直接写 ✉（通讯作者），这里统一渲染成上标 <sup>✉</sup>。
   已写成 <sup>✉</sup> 的旧内容也能兼容。
+  角标放在正文容器里：窄屏时排在标题首行前面，宽屏时仍绝对定位到卡片左上角。
 {% endcomment %}
 <div class='paper-box'>
-<div class="badge">{{ include.paper.badge }}</div>
 <div class='paper-box-image'>
 <div>
 <img src='{{ include.paper.image }}' alt="sym" width="100%">
 </div>
 </div>
 <div class='paper-box-text'>
+<span class="badge">{{ include.paper.badge }}</span>
 {{ include.paper.content | replace: "<sup>✉</sup>", "✉" | replace: "✉", "<sup>✉</sup>" }}
 </div>
 </div>

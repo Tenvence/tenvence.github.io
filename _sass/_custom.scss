@@ -484,13 +484,24 @@ a:focus-visible {
     }
   }
 
+  /* stacked card: the venue tab turns into an inline pill leading the title
+     line — floated so it sits before the title without adding a line */
+  @media (max-width: 47.99em) {
+    .badge {
+      position: static;
+      float: left;
+      margin: 0.22em 0.55em 0.1em 0;
+      padding: 0.16em 0.62em;
+      font-size: 0.6em;
+      line-height: 1.25;
+      border-radius: 999px;
+      box-shadow: none;
+    }
+  }
+
   @media (max-width: 40em) {
     padding: 1.25em;
     border-radius: 14px;
-
-    .badge {
-      border-radius: 12px 0 8px 0;
-    }
   }
 }
 
