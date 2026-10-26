@@ -485,16 +485,17 @@ a:focus-visible {
   }
 
   /* stacked card: the venue tab becomes an inline pill leading the title
-     line, vertically centred on the text and without adding a line */
+     line — same type size as the title, text centred in the pill and on the
+     title's baseline, without adding a line */
   @media (max-width: 47.99em) {
     .badge {
       position: static;
       display: inline-block;
-      vertical-align: middle;
-      margin: 0 0.45em 0 0;
-      padding: 0.16em 0.62em;
-      font-size: 0.6em;
-      line-height: 1.25;
+      vertical-align: baseline;
+      margin: 0 0.4em 0 0;
+      padding: 0.12em 0.5em;
+      font-size: 1em;
+      line-height: 1.2;
       border-radius: 999px;
       box-shadow: none;
     }
