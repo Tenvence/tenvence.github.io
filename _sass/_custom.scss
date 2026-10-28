@@ -3,8 +3,13 @@
    Added on top of Minimal Mistakes — visual polish only, no content changes.
    ========================================================================== */
 
-$accent-1: #6f1615; // deep maroon (badge / hover)
-$accent-2: #881b1a; // theme maroon (accents)
+/* Theme accent — the only place the colour is defined.
+   Change these three values to re-theme the site; every link colour, rule,
+   tinted border and shadow below derives from them. */
+$accent: #1f3a5f; // ink blue — links, rules, badges, active states
+$accent-dark: #14283f; // hover text, toggle icon
+$accent-deep: #0b1a2b; // deepest shade: toggle hover, shadow tint
+
 $ink: #0f172a;
 
 /* --------------------------------------------------------------------------
@@ -20,7 +25,7 @@ body {
 }
 
 ::selection {
-  background: rgba(136, 27, 26, 0.22);
+  background: rgba($accent, 0.22);
 }
 
 /* --------------------------------------------------------------------------
@@ -126,8 +131,8 @@ a:focus-visible {
   border: 1px solid rgba(255, 255, 255, 0.75);
   border-radius: 16px;
   box-shadow:
-    0 20px 44px -20px rgba(80, 12, 12, 0.35),
-    0 2px 10px -2px rgba(80, 12, 12, 0.12),
+    0 20px 44px -20px rgba($accent-deep, 0.35),
+    0 2px 10px -2px rgba($accent-deep, 0.12),
     inset 0 1px 0 rgba(255, 255, 255, 0.9);
   overflow: hidden;
 
@@ -137,7 +142,7 @@ a:focus-visible {
   }
 
   li {
-    border-top: 1px solid rgba(136, 27, 26, 0.1);
+    border-top: 1px solid rgba($accent, 0.1);
 
     &:first-child {
       border-top: 0;
@@ -154,7 +159,7 @@ a:focus-visible {
 
     &:hover,
     &:focus {
-      color: #881b1a;
+      color: $accent;
       background: transparent;
       text-decoration: underline;
       text-underline-offset: 3px;
@@ -201,20 +206,20 @@ a:focus-visible {
   width: calc(#{$navicon-width} + 1.9rem);
   border: 0;
   border-radius: 999px;
-  color: $accent-1;
+  color: $accent-dark;
   background-color: transparent;
   box-shadow: none;
   transition: color 0.2s ease;
 
   &:hover,
   &.close {
-    color: #4a0f0e;
+    color: $accent-deep;
     background: transparent;
     box-shadow: none;
   }
 
   &:focus-visible {
-    outline: 2px solid $accent-2;
+    outline: 2px solid $accent;
     outline-offset: 3px;
   }
 
@@ -266,7 +271,7 @@ a:focus-visible {
     bottom: -3px;
     height: 2px;
     border-radius: 999px;
-    background: $accent-2;
+    background: $accent;
     transform: scaleX(0);
     transform-origin: left center;
     transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -274,7 +279,7 @@ a:focus-visible {
 
   &:hover,
   &:focus {
-    color: #881b1a;
+    color: $accent;
     text-decoration: none;
 
     &::after {
@@ -290,14 +295,14 @@ a:focus-visible {
 .author__avatar img {
   /* photo background is cut out; the ring is a thin line with a small gap */
   padding: 3.5px;
-  border: 1px solid rgba(136, 27, 26, 0.3);
+  border: 1px solid rgba($accent, 0.3);
   background: transparent;
   border-radius: 50%;
   box-shadow: none;
   transition: box-shadow 0.25s ease;
 
   &:hover {
-    box-shadow: 0 18px 40px -20px rgba(136, 27, 26, 0.45);
+    box-shadow: 0 18px 40px -20px rgba($accent, 0.45);
   }
 }
 
@@ -319,7 +324,7 @@ a:focus-visible {
   transition: color 0.18s ease;
 
   &:hover {
-    color: #881b1a;
+    color: $accent;
     text-decoration: none;
   }
 }
@@ -348,7 +353,7 @@ a:focus-visible {
       height: 3px;
       width: 4.5em;
       border-radius: 999px;
-      background: $accent-2;
+      background: $accent;
       transition: width 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
@@ -372,7 +377,7 @@ a:focus-visible {
       bottom: 0.32em;
       width: 3px;
       border-radius: 999px;
-      background: $accent-2;
+      background: $accent;
     }
   }
 }
@@ -382,14 +387,14 @@ a:focus-visible {
    -------------------------------------------------------------------------- */
 
 .page__content a {
-  color: #881b1a;
-  text-decoration-color: rgba(136, 27, 26, 0.35);
+  color: $accent;
+  text-decoration-color: rgba($accent, 0.35);
   text-underline-offset: 2px;
   transition: color 0.18s ease, text-decoration-color 0.18s ease;
 
   &:hover {
-    color: #6f1615;
-    text-decoration-color: rgba(111, 22, 21, 0.7);
+    color: $accent-dark;
+    text-decoration-color: rgba($accent-dark, 0.7);
   }
 }
 
@@ -420,10 +425,10 @@ a:focus-visible {
   @media (hover: hover) {
     &:hover {
       transform: translateY(-3px);
-      border-color: rgba(136, 27, 26, 0.35);
+      border-color: rgba($accent, 0.35);
       box-shadow:
         0 2px 4px rgba(15, 23, 42, 0.04),
-        0 24px 48px -26px rgba(136, 27, 26, 0.55);
+        0 24px 48px -26px rgba($accent, 0.55);
     }
   }
 
@@ -515,13 +520,13 @@ a:focus-visible {
   left: 0;
   padding: 0.26em 0.8em;
   color: #fff;
-  background: $accent-1;
+  background: $accent;
   font-size: 0.6em;
   line-height: 1.25;
   font-weight: 700;
   letter-spacing: 0.04em;
   border-radius: 16px 0 10px 0;
-  box-shadow: 0 10px 20px -10px rgba(136, 27, 26, 0.8);
+  box-shadow: 0 10px 20px -10px rgba($accent-deep, 0.8);
   white-space: nowrap;
   z-index: 2;
 }
@@ -547,8 +552,8 @@ a:focus-visible {
   height: 3px;
   width: 0;
   z-index: 100;
-  background: $accent-2;
-  box-shadow: 0 0 12px rgba(136, 27, 26, 0.35);
+  background: $accent;
+  box-shadow: 0 0 12px rgba($accent, 0.35);
   pointer-events: none;
 }
 
