@@ -542,6 +542,78 @@ a:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
+   All Publications — collapse to recent entries behind a pill toggle
+   -------------------------------------------------------------------------- */
+
+.pub-hidden {
+  display: none !important;
+}
+
+.pubs-toggle {
+  /* h1 boxes extend ~3.5em above their text (the anchor-offset trick in
+     main.scss) and would invisibly cover this button; stack it above them */
+  position: relative;
+  z-index: 1;
+  /* span the full width of the list above, label centred */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0.3em 0 0.8em;
+  padding: 0.42em 1.05em;
+  border: 1px solid rgba($accent, 0.22);
+  border-radius: 999px;
+  background: rgba($accent, 0.06);
+  box-shadow:
+    0 1px 2px rgba($accent-deep, 0.08),
+    0 8px 20px -12px rgba($accent, 0.45);
+  color: $accent;
+  font-size: 0.88em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
+
+  /* chevron: points down while collapsed, up once expanded */
+  &::after {
+    content: "";
+    width: 0.42em;
+    height: 0.42em;
+    border-right: 1.6px solid currentColor;
+    border-bottom: 1.6px solid currentColor;
+    transform: rotate(45deg) translate(0, -0.1em);
+    transition: transform 0.2s ease;
+  }
+
+  &[aria-expanded="true"]::after {
+    transform: rotate(225deg) translate(-0.06em, -0.06em);
+  }
+
+  &:hover {
+    background: rgba($accent, 0.12);
+    border-color: rgba($accent, 0.35);
+    box-shadow:
+      0 2px 4px rgba($accent-deep, 0.1),
+      0 12px 26px -12px rgba($accent, 0.5);
+    transform: translateY(-1px);
+  }
+
+  /* a clicked button keeps focus, so the ring just sits there afterwards;
+     drop it, same as the masthead links above */
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
    Scroll affordances (markup injected by assets/js/custom.js)
    -------------------------------------------------------------------------- */
 
@@ -631,6 +703,17 @@ a:focus-visible {
     transform: none !important;
   }
 
+  /* print the full publication list, not the collapsed view */
+  li.pub-hidden {
+    display: list-item !important;
+  }
+
+  ul.pub-hidden,
+  h2.pub-hidden {
+    display: block !important;
+  }
+
+  .pubs-toggle,
   .scroll-progress,
   .site-footer {
     display: none;
