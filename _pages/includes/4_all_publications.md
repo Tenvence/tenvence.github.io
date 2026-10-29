@@ -1,4 +1,4 @@
-# All Publications
+# All Publications {#all-publications}
 
 ## 2026
 

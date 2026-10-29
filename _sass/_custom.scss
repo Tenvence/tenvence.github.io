@@ -6,9 +6,9 @@
 /* Theme accent — the only place the colour is defined.
    Change these three values to re-theme the site; every link colour, rule,
    tinted border and shadow below derives from them. */
-$accent: #1f3a5f; // ink blue — links, rules, badges, active states
-$accent-dark: #14283f; // hover text, toggle icon
-$accent-deep: #0b1a2b; // deepest shade: toggle hover, shadow tint
+$accent: #0e7490; // peacock cyan — links, rules, badges, active states
+$accent-dark: #0a5568; // hover text, toggle icon
+$accent-deep: #063846; // deepest shade: toggle hover, shadow tint
 
 $ink: #0f172a;
 
@@ -29,19 +29,16 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   Masthead — frosted glass bar + animated nav underline
+   Masthead — glass icon dock. Shared capsule skin below; layout is per mode:
+   a sticky right-hand column on wide screens, a bottom bar on narrow ones
+   (see the two media blocks after the nav-item rules).
    -------------------------------------------------------------------------- */
 
-/* floating "liquid glass" bar */
+/* floating "liquid glass" capsule skin */
 .masthead {
-  position: sticky;
-  top: 0.85em;
   z-index: 20;
-  width: calc(100% - 2.4em);
-  max-width: 1180px;
-  margin: 0.85em auto 0;
-  /* equal 4px inset on every side; the nav items get their own safe padding */
-  padding: 4px;
+  width: auto;
+  margin: 0;
   /* colourless glass: only a light frost */
   background-color: transparent;
   -webkit-backdrop-filter: blur(10px) saturate(140%);
@@ -68,25 +65,11 @@ body {
   padding: 0;
 }
 
-/* keep nav items out of the capsule's rounded ends */
+/* the dock shrink-wraps the icon column; the base theme's 250px floor and
+   side paddings were for a bar spanning the page */
 .greedy-nav {
-  padding: 0 30px;
-}
-
-@media (min-width: 48em) {
-  .greedy-nav {
-    padding: 0 44px;
-  }
-}
-
-@media (min-width: 48em) {
-  .greedy-nav .visible-links > li:first-child > a {
-    margin-left: 0;
-  }
-
-  .greedy-nav .visible-links > li:last-child > a {
-    margin-right: 0;
-  }
+  min-width: 0;
+  padding: 0;
 }
 
 /* The theme paints a yellow focus outline (#f89406) on every link; it pops back
@@ -118,10 +101,10 @@ a:focus-visible {
   border-radius: 999px;
 }
 
-/* dropdown menu: same glass language as the capsule */
+/* dropdown menu: same glass language as the dock, opening to its left */
 .greedy-nav .hidden-links {
-  top: calc(100% + 8px);
-  right: 0;
+  top: 0;
+  right: calc(100% + 10px);
   min-width: 210px;
   margin: 0;
   padding: 6px;
@@ -136,9 +119,21 @@ a:focus-visible {
     inset 0 1px 0 rgba(255, 255, 255, 0.9);
   overflow: hidden;
 
-  /* items keep the masthead class; drop the capsule's bar underline here */
+  /* the base theme's up-pointing arrow carets were for a top bar */
+  &::before,
+  &::after {
+    content: none;
+  }
+
+  /* items keep the masthead class; drop the capsule's tooltip here */
   .masthead__menu-item > a::after {
     content: none;
+  }
+
+  /* dropdown rows show icon + text side by side */
+  .masthead__menu-icon {
+    margin-right: 0.55em;
+    font-size: 0.95em;
   }
 
   li {
@@ -168,27 +163,16 @@ a:focus-visible {
   }
 }
 
-/* spread the items across the capsule's straight section */
-@media (min-width: 48em) {
-  .greedy-nav {
-    display: flex;
-    justify-content: center;
-  }
-
-  .greedy-nav .visible-links {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-  }
+/* icon buttons fill the capsule; direction (row vs column) is per mode */
+.greedy-nav {
+  display: flex;
+  justify-content: center;
 }
 
-@media (max-width: 48em) {
-  .masthead {
-    top: 0.6em;
-    width: calc(100% - 1.4em);
-    margin-top: 0.6em;
-    border-radius: 1.4em;
-  }
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
 
 /* Let the masthead's translucent background show through the navigation. */
@@ -196,9 +180,11 @@ a:focus-visible {
   background: transparent;
 }
 
-/* Keep Profile visible and aligned with the other navigation items. */
+/* Keep Profile visible and aligned with the other navigation items.
+   Must be flex (not the theme's block) so its button stretches into the
+   same capsule size as every other slice. */
 .greedy-nav .visible-links .masthead__menu-home-item {
-  display: table-cell !important;
+  display: flex !important;
 }
 
 /* Match the overflow toggle to the masthead without changing its footprint. */
@@ -256,35 +242,237 @@ a:focus-visible {
   content: none;
 }
 
+/* icon-only buttons: the label moves into a tooltip capsule and the dropdown */
 .masthead__menu-item > a {
   position: relative;
-  color: #3f4a5a;
+  /* big, capsule-shaped click area; fills its slice so neighbours touch */
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.75em 0.72em;
+  border-radius: 999px;
+  color: $accent;
   font-weight: 600;
   letter-spacing: 0.005em;
-  transition: color 0.2s ease;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
 
+  /* tooltip: section name in a light frosted capsule beside the icon */
   &::after {
-    content: "";
+    content: attr(data-tip);
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -3px;
-    height: 2px;
+    top: 50%;
+    left: auto;
+    right: calc(100% + 10px);
+    padding: 0.5em 1.05em;
+    border: 1px solid rgba($accent, 0.16);
     border-radius: 999px;
-    background: $accent;
-    transform: scaleX(0);
-    transform-origin: left center;
-    transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+    background: rgba(255, 253, 250, 0.9);
+    -webkit-backdrop-filter: blur(12px) saturate(160%);
+    backdrop-filter: blur(12px) saturate(160%);
+    color: $accent;
+    font-size: 0.92rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    box-shadow: 0 12px 26px -12px rgba($accent-deep, 0.35);
+    opacity: 0;
+    transform: translateY(-50%) translateX(4px);
+    pointer-events: none;
+    transition:
+      opacity 0.18s ease,
+      transform 0.18s ease;
   }
 
-  &:hover,
-  &:focus {
-    color: $accent;
-    text-decoration: none;
-
-    &::after {
-      transform: scaleX(1);
+  /* only a real hover paints the capsule — a clicked or tapped link keeps
+     no background (touch browsers would otherwise stick the hover on it) */
+  @media (hover: hover) {
+    &:hover {
+      color: $accent-dark;
+      background: rgba($accent, 0.1);
+      text-decoration: none;
     }
+
+    &:hover::after {
+      opacity: 1;
+      transform: translateY(-50%) translateX(0);
+    }
+  }
+
+  /* keyboard focus still gets the capsule and the tooltip */
+  &:focus-visible {
+    color: $accent-dark;
+    background: rgba($accent, 0.1);
+    text-decoration: none;
+  }
+
+  &:focus-visible::after {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+  }
+}
+
+/* click feedback: a dip-and-spring with an expanding ping ring. Driven by a
+   class (custom.js) instead of :active so even quick taps play it fully. */
+@keyframes nav-tap {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba($accent, 0.35);
+  }
+  35% {
+    transform: scale(0.86);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 15px rgba($accent, 0);
+  }
+}
+
+.masthead__menu-item > a.nav-tapped {
+  animation: nav-tap 0.45s cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .masthead__menu-item > a.nav-tapped {
+    animation: none;
+  }
+}
+
+.greedy-nav .visible-links .masthead__menu-text {
+  display: none;
+}
+
+/* each item takes an equal share of the capsule, so the click areas of
+   adjacent buttons are tangent with no dead space between them; min sizes
+   zeroed so short docks still divide evenly instead of overflowing */
+.greedy-nav .visible-links > li {
+  display: flex;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 0;
+}
+
+.masthead__menu-icon {
+  /* match the section-title icons: 0.78em of the 1.6em h1 ≈ 1.25em here;
+     fixed width so every glyph occupies the same box (like fa-fw) */
+  font-size: 1.25em;
+  width: 1.25em;
+  text-align: center;
+}
+
+/* --------------------------------------------------------------------------
+   Wide: profile / content / dock as three centred columns with equal gaps.
+   The dock is a real layout column (like the profile sidebar) and sticks
+   vertically centred while the page scrolls.
+   -------------------------------------------------------------------------- */
+
+@include breakpoint($large) {
+  #main {
+    display: flex;
+    column-gap: 3em;
+
+    /* the clearfix pseudo-element would become a phantom flex item */
+    &::after {
+      display: none;
+    }
+  }
+
+  #main > .sidebar {
+    flex: 0 0 15.25%;
+    margin: 0;
+    /* hug the card's height so its sticky positioning has room to slide */
+    align-self: flex-start;
+  }
+
+  #main > .page {
+    flex: 1 1 auto;
+    float: none;
+    width: auto;
+    min-width: 0;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #main > .masthead {
+    position: sticky;
+    /* top offset and height are set by JS to match the profile column */
+    align-self: flex-start;
+    flex: 0 0 auto;
+    /* vertical capsule: a little extra padding into the rounded ends */
+    padding: 8px 5px;
+  }
+
+  /* let the icons spread through the capsule's full (profile-matched) height */
+  #main > .masthead .masthead__inner-wrap,
+  #main > .masthead .masthead__menu,
+  #main > .masthead .greedy-nav,
+  #main > .masthead .visible-links {
+    height: 100%;
+  }
+
+  .greedy-nav .visible-links {
+    flex-direction: column;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Narrow: no room for a third column — the dock turns into a horizontal
+   capsule floating at the bottom edge, tooltips popping above it.
+   "not all and (min-width)" is the exact complement of the wide breakpoint,
+   so fractional viewports can't fall into a gap between the two modes.
+   -------------------------------------------------------------------------- */
+
+@media not all and (min-width: 57.8125em) {
+  .masthead {
+    position: fixed;
+    top: auto;
+    bottom: calc(0.9em + env(safe-area-inset-bottom, 0px));
+    /* span the page content's width (#main's 1em side padding) */
+    left: 1em;
+    right: 1em;
+    transform: none;
+    /* a taller bar: more room for the buttons' click areas */
+    padding: 8px 10px;
+    /* heavy frosted fill: content scrolls beneath the full-width bar */
+    background-color: rgba(255, 253, 250, 0.72);
+    -webkit-backdrop-filter: blur(22px) saturate(180%);
+    backdrop-filter: blur(22px) saturate(180%);
+  }
+
+  /* let the buttons' slices cover the bar's full width */
+  .greedy-nav .visible-links {
+    width: 100%;
+  }
+
+  /* keep the footer out from behind the floating bar */
+  #main {
+    padding-bottom: 6em;
+  }
+
+  /* tooltip pops above the bar instead of beside the icon; --tip-shift
+     (set by custom.js) nudges edge tooltips back inside the bar */
+  .masthead__menu-item > a::after {
+    top: auto;
+    right: auto;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(calc(-50% + var(--tip-shift, 0px))) translateY(4px);
+  }
+
+  .masthead__menu-item > a:hover::after,
+  .masthead__menu-item > a:focus-visible::after {
+    transform: translateX(calc(-50% + var(--tip-shift, 0px))) translateY(0);
+  }
+
+  /* the dropdown would open upwards from the bar */
+  .greedy-nav .hidden-links {
+    top: auto;
+    right: 0;
+    bottom: calc(100% + 10px);
   }
 }
 
@@ -360,6 +548,19 @@ a:focus-visible {
     &:hover::after {
       width: var(--title-w, 100%);
     }
+
+    /* theme-coloured glyph leading the title text; the glyph itself is
+       chosen per section id below, so the markdown stays pure Markdown */
+    &::before {
+      margin-right: 0.42em;
+      font-family: "Font Awesome 5 Free";
+      font-size: 0.78em;
+      font-weight: 900;
+      color: $accent;
+      /* FA glyphs ride low on the baseline; nudge up to centre on the caps */
+      vertical-align: 0.06em;
+      -webkit-font-smoothing: antialiased;
+    }
   }
 
   h2 {
@@ -381,6 +582,18 @@ a:focus-visible {
     }
   }
 }
+
+/* --------------------------------------------------------------------------
+   Section-title glyphs, keyed by each heading's id — the Font Awesome
+   codepoint lives here in CSS so the markdown files stay pure Markdown
+   -------------------------------------------------------------------------- */
+
+#research-experience::before { content: "\f0c3"; }      /* flask */
+#honors-and-awards::before { content: "\f559"; }        /* award */
+#selected-publications::before { content: "\f005"; }    /* star */
+#all-publications::before { content: "\f02d"; }         /* book */
+#students::before { content: "\f19d"; }                 /* graduation-cap */
+#academic-services::before { content: "\f0c0"; }        /* users */
 
 /* --------------------------------------------------------------------------
    Links — colored, offset underline that darkens on hover
@@ -550,10 +763,6 @@ a:focus-visible {
 }
 
 .pubs-toggle {
-  /* h1 boxes extend ~3.5em above their text (the anchor-offset trick in
-     main.scss) and would invisibly cover this button; stack it above them */
-  position: relative;
-  z-index: 1;
   /* span the full width of the list above, label centred */
   display: flex;
   justify-content: center;
@@ -627,11 +836,6 @@ a:focus-visible {
   background: $accent;
   box-shadow: 0 0 12px rgba($accent, 0.35);
   pointer-events: none;
-}
-
-/* breathing room between the floating header and the page content */
-#main {
-  margin-top: 42px;
 }
 
 /* --------------------------------------------------------------------------

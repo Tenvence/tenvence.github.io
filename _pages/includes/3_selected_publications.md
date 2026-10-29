@@ -1,4 +1,4 @@
-# Selected Publications
+# Selected Publications {#selected-publications}
 
 {% comment %}
   每篇论文 = _papers/ 目录下的一个 Markdown 文件。

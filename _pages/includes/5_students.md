@@ -1,4 +1,4 @@
-# Students
+# Students {#students}
 
 - **Master Students**
   - ***Haiyu Wu* (吴海宇)** (2025-present, with Qing Gu & Zhiwei Jiang): **ICML** × 1

@@ -2,11 +2,11 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button class="hidden"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-home-item"><a href="#about-me">Profile</a></li>
+          <li class="masthead__menu-item masthead__menu-home-item"><a href="#about-me" data-tip="Profile" aria-label="Profile"><i class="fas fa-home masthead__menu-icon" aria-hidden="true"></i><span class="masthead__menu-text">Profile</span></a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}" data-tip="{{ link.tip | default: link.title }}" aria-label="{{ link.title }}"><i class="fas {{ link.icon }} masthead__menu-icon" aria-hidden="true"></i><span class="masthead__menu-text">{{ link.title }}</span></a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

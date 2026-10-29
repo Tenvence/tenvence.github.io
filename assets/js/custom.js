@@ -74,8 +74,9 @@
   }
 
   function scrollToElement(el) {
-    var nav = document.querySelector(".masthead");
-    var offset = (nav ? nav.getBoundingClientRect().height : 56) + 34;
+    /* the masthead is a side column / bottom bar now and never covers the
+       top of the viewport, so a small constant offset suffices */
+    var offset = 30;
     var end = Math.max(targetTop(el) - offset, 0);
 
     if (reduceMotion) {
@@ -112,6 +113,16 @@
 
       event.preventDefault();
       closeMenu();
+
+      /* tap feedback: replay the ping; a class (not :active) so quick taps
+         still run the whole animation */
+      link.classList.remove("nav-tapped");
+      void link.offsetWidth;
+      link.classList.add("nav-tapped");
+      window.setTimeout(function () {
+        link.classList.remove("nav-tapped");
+      }, 500);
+
       scrollToElement(target);
 
       if (window.history && window.history.replaceState) {
@@ -120,198 +131,161 @@
     });
   });
 
-  /* --- keep the floating header aligned with the main content column ------- */
-
-  var masthead = document.querySelector(".masthead");
-  var pageContent = document.querySelector(".page__content");
-  var pageSidebar = document.querySelector(".sidebar");
-
-  function alignMasthead() {
-    if (!masthead || !pageContent) return;
-
-    if (window.innerWidth < 768) {
-      masthead.style.width = "";
-      masthead.style.marginLeft = "";
-      masthead.style.maxWidth = "";
-      return;
-    }
-
-    var contentRect = pageContent.getBoundingClientRect();
-    var left = pageSidebar
-      ? pageSidebar.getBoundingClientRect().left
-      : contentRect.left;
-    var right = contentRect.right;
-
-    /* span from the avatar column's left edge to the content's right edge */
-    masthead.style.maxWidth = "none";
-    masthead.style.marginLeft = Math.round(left) + "px";
-    masthead.style.width = Math.round(right - left) + "px";
-  }
-
-  /* --- keep the avatar column still from the very first scroll ------------- */
+  /* --- pin the avatar column; top-align the dock and match its height ------ */
 
   var stickySidebar = document.querySelector(".sidebar.sticky");
+  var dock = document.querySelector("#main > .masthead");
 
-  function alignSidebar() {
+  /* the center column's first line of real text, in document coordinates
+     (skips the invisible anchor-offset hack that opens the homepage) */
+  function contentTop() {
+    var content = document.querySelector(".page__content");
+    if (!content) return null;
+
+    var kids = content.children;
+    for (var i = 0; i < kids.length; i++) {
+      if (!kids[i].textContent.replace(/\s+/g, "")) continue;
+      var range = document.createRange();
+      range.selectNodeContents(kids[i]);
+      var rects = range.getClientRects();
+      if (rects.length) return rects[0].top + window.pageYOffset;
+    }
+    return null;
+  }
+
+  function alignColumns() {
+    if (dock) {
+      dock.style.top = "";
+      dock.style.height = "";
+      dock.style.marginTop = "";
+    }
     if (!stickySidebar) return;
 
     stickySidebar.style.top = "";
+    stickySidebar.style.marginTop = "";
     if (window.innerWidth < 925) return;
 
     var previousPosition = stickySidebar.style.position;
     stickySidebar.style.position = "static";
-    var naturalTop =
-      stickySidebar.getBoundingClientRect().top + window.pageYOffset;
+    var naturalRect = stickySidebar.getBoundingClientRect();
+    var naturalTop = naturalRect.top + window.pageYOffset;
+    var naturalHeight = naturalRect.height;
     stickySidebar.style.position = previousPosition;
 
-    stickySidebar.style.top = Math.round(naturalTop) + "px";
-  }
+    /* drop the profile card and the dock so their tops meet the center
+       column's first line of text instead of the flex row's top edge */
+    var firstLineTop = contentTop();
+    var delta =
+      firstLineTop === null ? 0 : Math.max(firstLineTop - naturalTop, 0);
+    var stickTop = Math.round(naturalTop + delta);
 
-  /* --- spread the visible items between the capsule's straight edges ------- */
+    stickySidebar.style.marginTop = delta + "px";
+    stickySidebar.style.top = stickTop + "px";
 
-  function resetNavLayout() {
-    var nav = document.querySelector(".greedy-nav");
-    var ul = nav && nav.querySelector(".visible-links");
-    if (!ul) return;
-    nav.style.justifyContent = "";
-    ul.style.display = "";
-    ul.style.alignItems = "";
-    ul.style.justifyContent = "";
-    ul.style.width = "";
-    ul.style.margin = "";
-
-    Array.prototype.forEach.call(ul.children, function (li) {
-      var link = li.firstElementChild;
-      if (!link) return;
-      link.style.marginLeft = "";
-      link.style.marginRight = "";
-    });
-  }
-
-  function distributeNav() {
-    var nav = document.querySelector(".greedy-nav");
-    var ul = nav && nav.querySelector(".visible-links");
-    if (!nav || !ul || !ul.children.length) return;
-
-    resetNavLayout();
-
-    var btn = nav.querySelector("button");
-    var btnVisible =
-      btn &&
-      !btn.classList.contains("hidden") &&
-      getComputedStyle(btn).display !== "none";
-
-    var navRect = nav.getBoundingClientRect();
-    var navStyle = getComputedStyle(nav);
-    var padLeft = parseFloat(navStyle.paddingLeft) || 0;
-    var padRight = parseFloat(navStyle.paddingRight) || 0;
-    var left = padLeft;
-    var right = navRect.width - padRight;
-
-    if (btnVisible) {
-      /* measure to the visible navicon, not the transparent button box */
-      var navicon = btn.querySelector(".navicon");
-      var iconRect = navicon
-        ? navicon.getBoundingClientRect()
-        : btn.getBoundingClientRect();
-      right = Math.min(right, iconRect.left - navRect.left);
+    /* the dock sticks beside the profile card and matches its height */
+    if (dock) {
+      dock.style.marginTop = delta + "px";
+      dock.style.top = stickTop + "px";
+      dock.style.height = Math.round(naturalHeight) + "px";
     }
+  }
 
-    var items = Array.prototype.slice.call(ul.children);
-    var total = 0;
-    Array.prototype.forEach.call(items, function (li) {
-      var link = li.firstElementChild;
-      if (link) {
-        link.style.marginLeft = "0px";
-        link.style.marginRight = "0px";
-        total += link.getBoundingClientRect().width;
-      } else {
-        total += li.getBoundingClientRect().width;
-      }
-    });
+  alignColumns();
+  /* late-loading avatar images change the profile height; re-sync then */
+  window.addEventListener("load", alignColumns);
+  /* any late change to the profile card's size (fonts, images) re-syncs too */
+  if (window.ResizeObserver && stickySidebar) {
+    new ResizeObserver(function () {
+      alignColumns();
+    }).observe(stickySidebar);
+  }
 
-    var available = right - left;
+  /* --- keep edge tooltips inside the bottom bar ---------------------------- */
 
-    if (items.length < 2) {
-      /* a single item stays at the left edge instead of being pushed away */
-      nav.style.justifyContent = "flex-start";
-      ul.style.display = "flex";
-      ul.style.justifyContent = "flex-start";
-      ul.style.margin = "0";
-      ul.style.width = "auto";
+  var tooltipBar = document.querySelector(".masthead");
+
+  /* Narrow mode centres each tooltip above its icon; near the bar's ends a
+     wide tooltip would stick out, so measure it and shift it back inside
+     through the --tip-shift custom property. */
+  function fitTooltips() {
+    if (!tooltipBar) return;
+
+    var links = tooltipBar.querySelectorAll(
+      ".visible-links .masthead__menu-item > a"
+    );
+
+    if (window.innerWidth > 924) {
+      Array.prototype.forEach.call(links, function (link) {
+        link.style.removeProperty("--tip-shift");
+      });
       return;
     }
 
-    var gapCount = btnVisible ? items.length : items.length - 1;
-    var gap = gapCount > 0 ? (available - total) / gapCount : 0;
-    if (!isFinite(gap) || gap < 0) gap = 0;
+    /* a probe styled exactly like the tooltip pseudo-element */
+    var gauge = document.createElement("span");
+    gauge.style.cssText =
+      "position:absolute;visibility:hidden;white-space:nowrap;" +
+      "font-size:0.92rem;font-weight:600;letter-spacing:0.02em;" +
+      "padding:0.5em 1.05em;border:1px solid transparent;box-sizing:border-box;";
+    document.body.appendChild(gauge);
 
-    nav.style.justifyContent = "flex-start";
-    ul.style.display = "flex";
-    ul.style.alignItems = "center";
-    ul.style.justifyContent = "space-between";
-    ul.style.margin = "0";
-    ul.style.width =
-      Math.max(0, btnVisible ? available - gap : available) + "px";
+    var barRect = tooltipBar.getBoundingClientRect();
 
-    /* one correction pass so the gap before the navicon matches the item gaps */
-    if (btnVisible && items.length > 1) {
-      var iconLeft = (btn.querySelector(".navicon") || btn).getBoundingClientRect().left;
-      var firstRect = items[0].firstElementChild.getBoundingClientRect();
-      var secondRect = items[1].firstElementChild.getBoundingClientRect();
-      var lastRect = items[items.length - 1].firstElementChild.getBoundingClientRect();
-      var wordGap = secondRect.left - firstRect.right;
-      var lastGap = iconLeft - lastRect.right;
-      var correction =
-        ((lastGap - wordGap) * (items.length - 1)) / items.length;
-      var width = parseFloat(ul.style.width) || 0;
-      ul.style.width = Math.max(0, width + correction) + "px";
-    }
-  }
-
-  var navDistributeTimer = null;
-
-  function scheduleDistribute() {
-    window.clearTimeout(navDistributeTimer);
-    navDistributeTimer = window.setTimeout(distributeNav, 40);
-  }
-
-  function alignHeader() {
-    resetNavLayout();
-    alignMasthead();
-    alignSidebar();
-  }
-
-  alignHeader();
-  window.addEventListener("resize", alignHeader);
-
-  /* The greedy-nav script loads after this file. Its updateNav() compares the
-     list width with the space left of the toggle; a fixed width would make it
-     loop forever, so let it always measure the natural list and re-spread
-     afterwards. */
-  var navHookAttempts = 0;
-
-  function hookUpdateNav() {
-    if (typeof window.updateNav === "function") {
-      if (!window.updateNav.__dshWrapped) {
-        var originalUpdateNav = window.updateNav;
-        var wrappedUpdateNav = function () {
-          var list = document.querySelector(".greedy-nav .visible-links");
-          if (list) list.style.width = "";
-          var result = originalUpdateNav.apply(this, arguments);
-          scheduleDistribute();
-          return result;
-        };
-        wrappedUpdateNav.__dshWrapped = true;
-        window.updateNav = wrappedUpdateNav;
+    Array.prototype.forEach.call(links, function (link) {
+      gauge.style.fontFamily = window.getComputedStyle(link).fontFamily;
+      gauge.textContent = link.getAttribute("data-tip") || "";
+      var half = gauge.getBoundingClientRect().width / 2;
+      var rect = link.getBoundingClientRect();
+      var center = (rect.left + rect.right) / 2;
+      var shift = 0;
+      if (center - half < barRect.left) {
+        shift = barRect.left - (center - half);
+      } else if (center + half > barRect.right) {
+        shift = barRect.right - (center + half);
       }
-      scheduleDistribute();
-      return;
-    }
-    if (navHookAttempts++ < 200) window.setTimeout(hookUpdateNav, 25);
+      link.style.setProperty("--tip-shift", Math.round(shift) + "px");
+    });
+
+    document.body.removeChild(gauge);
   }
 
-  hookUpdateNav();
+  fitTooltips();
+  window.addEventListener("load", fitTooltips);
+
+  /* Media-query styles can lag the resize event: innerWidth already reports
+     the new viewport while getBoundingClientRect still sees the old mode's
+     styles (that mis-measured the profile height once, and the dock kept
+     its narrow size in wide mode). Re-measure on the next animation frame,
+     when the new styles have settled, and on the media-query flip itself. */
+  var syncFrame = 0;
+  var syncTimer = 0;
+
+  function scheduleLayoutSync() {
+    if (!syncFrame) {
+      syncFrame = window.requestAnimationFrame(function () {
+        syncFrame = 0;
+        alignColumns();
+        fitTooltips();
+      });
+    }
+    /* trailing re-check once the viewport has fully settled (resized images
+       and media-query evaluation can take a second frame) */
+    window.clearTimeout(syncTimer);
+    syncTimer = window.setTimeout(function () {
+      alignColumns();
+      fitTooltips();
+    }, 160);
+  }
+
+  window.addEventListener("resize", scheduleLayoutSync);
+  if (window.matchMedia) {
+    var wideQuery = window.matchMedia("(min-width: 925px)");
+    if (wideQuery.addEventListener) {
+      wideQuery.addEventListener("change", scheduleLayoutSync);
+    } else if (wideQuery.addListener) {
+      wideQuery.addListener(scheduleLayoutSync);
+    }
+  }
 
   /* --- heading underline width --------------------------------------------- */
 

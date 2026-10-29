@@ -2,18 +2,26 @@
 main:
   - title: "Research Experience"
     url: "/#research-experience"
-  
+    icon: "fa-flask"
+
   - title: "Honors & Awards"
     url: "/#honors-and-awards"
-  
+    icon: "fa-award"
+
   - title: "Selected Pub."
     url: "/#selected-publications"
-  
+    icon: "fa-star"
+    tip: "Selected Publications"
+
   - title: "All Pub."
     url: "/#all-publications"
+    icon: "fa-book"
+    tip: "All Publications"
 
   - title: "Students"
     url: "/#students"
-  
+    icon: "fa-graduation-cap"
+
   - title: "Academic Services"
     url: "/#academic-services"
+    icon: "fa-users"
