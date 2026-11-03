@@ -1,7 +1,7 @@
 ---
 badge: ICML 2026
 image: images/paper-images/scale-erasure.png
-order: 3
+order: 1
 ---
 
 ***ScaleErasure: Inference-Time Minimal Intervention for Precise Concept Erasure in Next-Scale Autoregressive Image Generation***;  

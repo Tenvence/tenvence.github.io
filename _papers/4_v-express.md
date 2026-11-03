@@ -1,7 +1,7 @@
 ---
 badge: arXiv
 image: images/paper-images/v-express.png
-order: 1
+order: 4
 ---
 
 ***V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation***;  

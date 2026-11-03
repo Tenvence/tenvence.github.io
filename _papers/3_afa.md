@@ -1,7 +1,7 @@
 ---
 badge: ICLR 2025
 image: images/paper-images/afa.png
-order: 4
+order: 3
 ---
 
 ***Ensembling Diffusion Models via Adaptive Feature Aggregation***;  
