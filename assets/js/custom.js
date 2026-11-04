@@ -311,74 +311,88 @@
   measureTitles();
   window.addEventListener("resize", measureTitles);
 
-  /* --- all publications: collapse to the ten most recent ------------------- */
+  /* --- publications: collapse each section to its most recent entries ------ */
 
-  var pubsHeading = document.getElementById("all-publications");
+  var MORE_LABEL = "Show More Publications";
+  var LESS_LABEL = "Show Less Publication";
 
-  if (pubsHeading) {
-    var VISIBLE_COUNT = 20;
+  /* A section is the flat run of siblings after its h1, up to the next h1.
+     Items are either list entries inside uls (all publications, grouped by
+     year headings) or paper cards directly under the heading (selected
+     publications). Everything past visibleCount is hidden behind a pill. */
+  function collapseSection(headingId, visibleCount, itemSelector, withGroups, labels) {
+    labels = labels || { more: MORE_LABEL, less: LESS_LABEL };
+    var heading = document.getElementById(headingId);
+    if (!heading) return;
 
-    /* the section is a flat run of h2 + ul pairs ending at the next h1 */
-    var groups = [];
     var items = [];
-    var currentYear = null;
-    var lastElement = pubsHeading;
-    var el = pubsHeading.nextElementSibling;
+    var groups = [];
+    var groupHeading = null;
+    var lastElement = heading;
+    var el = heading.nextElementSibling;
 
     while (el && el.tagName !== "H1") {
-      if (el.tagName === "H2") {
-        currentYear = el;
-      } else if (el.tagName === "UL") {
-        groups.push({ heading: currentYear, list: el });
+      if (withGroups && el.tagName === "H2") {
+        groupHeading = el;
+      } else if (withGroups && el.tagName === "UL") {
+        /* the year's entries live inside its list */
+        var group = { heading: groupHeading, list: el, items: [] };
+        groups.push(group);
         for (var i = 0; i < el.children.length; i++) {
-          items.push(el.children[i]);
+          if (el.children[i].matches && el.children[i].matches(itemSelector)) {
+            group.items.push(el.children[i]);
+            items.push(el.children[i]);
+          }
         }
+      } else if (el.matches && el.matches(itemSelector)) {
+        items.push(el);
       }
       lastElement = el;
       el = el.nextElementSibling;
     }
 
-    if (items.length > VISIBLE_COUNT) {
-      var toggle = document.createElement("button");
-      toggle.type = "button";
-      toggle.className = "pubs-toggle";
-      toggle.setAttribute("aria-expanded", "false");
+    if (items.length <= visibleCount) return;
 
-      var toggleLabel = document.createElement("span");
-      toggle.appendChild(toggleLabel);
+    var toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "pubs-toggle";
+    toggle.setAttribute("aria-expanded", "false");
 
-      var setCollapsed = function (collapsed) {
-        for (var i = VISIBLE_COUNT; i < items.length; i++) {
-          items[i].classList.toggle("pub-hidden", collapsed);
-        }
-        /* a year group with no visible entries hides its heading too */
-        groups.forEach(function (group) {
-          var anyVisible = false;
-          for (var i = 0; i < group.list.children.length; i++) {
-            if (!group.list.children[i].classList.contains("pub-hidden")) {
-              anyVisible = true;
-              break;
-            }
-          }
-          group.list.classList.toggle("pub-hidden", !anyVisible);
-          if (group.heading) {
-            group.heading.classList.toggle("pub-hidden", !anyVisible);
-          }
+    var toggleLabel = document.createElement("span");
+    toggle.appendChild(toggleLabel);
+
+    var setCollapsed = function (collapsed) {
+      for (var i = visibleCount; i < items.length; i++) {
+        items[i].classList.toggle("pub-hidden", collapsed);
+      }
+      /* a year group with no visible entries hides its heading too */
+      groups.forEach(function (group) {
+        var anyVisible = group.items.some(function (item) {
+          return !item.classList.contains("pub-hidden");
         });
-        toggle.setAttribute("aria-expanded", String(!collapsed));
-        toggleLabel.textContent = collapsed
-          ? "Show More Publications"
-          : "Show Less Publication";
-      };
-
-      toggle.addEventListener("click", function () {
-        setCollapsed(toggle.getAttribute("aria-expanded") === "true");
+        group.list.classList.toggle("pub-hidden", !anyVisible);
+        if (group.heading) {
+          group.heading.classList.toggle("pub-hidden", !anyVisible);
+        }
       });
+      toggle.setAttribute("aria-expanded", String(!collapsed));
+      toggleLabel.textContent = collapsed ? labels.more : labels.less;
+    };
 
-      lastElement.parentNode.insertBefore(toggle, lastElement.nextSibling);
-      setCollapsed(true);
-    }
+    toggle.addEventListener("click", function () {
+      setCollapsed(toggle.getAttribute("aria-expanded") === "true");
+    });
+
+    lastElement.parentNode.insertBefore(toggle, lastElement.nextSibling);
+    setCollapsed(true);
   }
+
+  /* the five most recent papers sit in the cards; the full list shows ten */
+  collapseSection("selected-publications", 5, ".paper-box", false, {
+    more: "Show More Selected Publication",
+    less: "Show Less Selected Publication"
+  });
+  collapseSection("all-publications", 10, "li", true);
 
   /* --- reveal on scroll ---------------------------------------------------- */
 

@@ -755,7 +755,7 @@ a:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
-   All Publications — collapse to recent entries behind a pill toggle
+   Publications — collapse to recent entries behind a pill toggle
    -------------------------------------------------------------------------- */
 
 .pub-hidden {
@@ -910,6 +910,10 @@ a:focus-visible {
   /* print the full publication list, not the collapsed view */
   li.pub-hidden {
     display: list-item !important;
+  }
+
+  .paper-box.pub-hidden {
+    display: flex !important;
   }
 
   ul.pub-hidden,
