@@ -616,21 +616,27 @@ a:focus-visible {
    -------------------------------------------------------------------------- */
 
 .page__content .experience-list {
+  // Match the visible text across two lines, accounting for space above and below the glyphs.
+  $logo-top-inset: 0.35em;
+  $logo-height: calc(2lh - #{$logo-top-inset} - 0.2em);
+
+  list-style: none;
+  padding-inline-start: 0;
+
   > li {
     position: relative;
-    min-height: 48px;
-    padding-right: 60px;
+    min-height: 2lh;
+    padding-inline-start: calc(#{$logo-height} + 0.75em);
     margin-bottom: 1em;
   }
 
-  img {
+  > li > img {
     position: absolute;
-    top: 50%;
-    right: 0;
-    width: 48px;
-    height: 48px;
+    inset-block-start: $logo-top-inset;
+    inset-inline-start: 0;
+    width: $logo-height;
+    height: $logo-height;
     object-fit: contain;
-    transform: translateY(-50%);
   }
 }
 
